@@ -3,5 +3,25 @@
 @tailwind utilities;
 
 body {
-  @apply text-white bg-gray-900;
+  @apply text-white bg-slate-900;
+}
+
+a {
+  @apply text-teal-500 transition duration-300 hover:underline hover:text-teal-400;
+}
+
+.fancy-link {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-teal-300 hover:from-teal-600 hover:to-teal-200;
+}
+
+.info-block h3 {
+  @apply text-xl font-bold text-gray-100;
+}
+
+.info-block p {
+  @apply my-4 text-gray-300;
+}
+
+.teal-badge {
+  @apply inline-flex px-2 text-xs font-semibold leading-5 text-red-100 bg-teal-600 rounded-full cursor-default;
 }
