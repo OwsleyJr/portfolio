@@ -37,7 +37,7 @@ const Navbar = () => {
           <div
             id="bgIcon"
             onClick={() => setshow(!show)}
-            className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800  justify-center items-center sm:hidden cursor-pointer bg-white rounded-md`}
+            className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 justify-center items-center sm:hidden cursor-pointer rounded-md`}
           >
             <svg
               className={`${show ? "hidden" : ""}`}
@@ -50,14 +50,14 @@ const Navbar = () => {
               <path
                 className=" transform duration-150"
                 d="M4 6H20"
-                stroke="#1F2937"
+                stroke="#ffffff"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M4 12H20"
-                stroke="#1F2937"
+                stroke="#ffffff"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -65,7 +65,7 @@ const Navbar = () => {
               <path
                 className="transform duration-150"
                 d="M4 18H20"
-                stroke="#1F2937"
+                stroke="#ffffff"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -81,14 +81,14 @@ const Navbar = () => {
             >
               <path
                 d="M18 6L6 18"
-                stroke="#1F2937"
+                stroke="#ffffff"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M6 6L18 18"
-                stroke="#1F2937"
+                stroke="#ffffff"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"

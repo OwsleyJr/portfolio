@@ -15,7 +15,7 @@ const MyProjects: React.FC = () => {
           </h1>
         </div>
         <div>
-          <div className="mx-auto container py-10">
+          <div className="mx-auto container py-10 md:mt-2">
             <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
               <div className="rounded-md">
                 <div className="w-full h-80 flex flex-col shadow-lg shadow-black justify-between bg-purple-500 rounded-lg border border-purple-500 mb-6 py-5 px-4">

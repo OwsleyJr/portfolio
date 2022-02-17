@@ -21,7 +21,11 @@ const About: React.FC = () => {
               </div>
 
               <p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-teal-600 font-black leading-7 md:leading-10 mt-2 md:mt-4">
-                I am a Software Engineer who loves to code.{" "}
+                I am a Software Engineer who lives and works in South Florida.
+                Coding is my passion.{" "}
+              </p>
+              <p className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-teal-600 font-bold leading-7 md:leading-10 mt-2 md:mt-8">
+                Check out the links at the top to learn more about what I do!
               </p>
             </div>
           </div>
