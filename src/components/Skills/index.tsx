@@ -14,43 +14,47 @@ const Skills: React.FC = () => {
             Skills
           </h1>
         </div>
-        <h1 className="text-2xl sm:text-lg md:text-xl lg:text-4xl xl:text-4xl mt-4 md:mt-6  text-teal-600 font-black leading-7 md:leading-10">
+        <h1 className="text-3xl sm:text-lg md:text-xl lg:text-4xl xl:text-4xl mt-4 md:mt-6 text-teal-600 font-black leading-7 md:leading-10">
           Languages/Frameworks
         </h1>
-        <div className="flex flex-row space-x-5 flex-wrap mt-1">
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+
+        <div className="flex flex-row mt-2 space-x-5">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-javascript-plain colored"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-react-original colored"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-nextjs-original"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-redux-original colored"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+        </div>
+
+        <div className="flex flex-row space-x-5 mt-2 md:mt-0">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-nodejs-plain colored"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-tailwindcss-plain colored"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-express-original"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl  font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-sequelize-plain colored"></i>
           </p>
         </div>
-        <h1 className="text-2xl sm:text-lg md:text-xl lg:text-4xl xl:text-4xl mt-4  text-teal-600 font-black leading-7 md:leading-10">
+        <h1 className="text-3xl sm:text-lg md:text-xl lg:text-4xl xl:text-4xl mt-5 text-teal-600 font-black leading-7 md:leading-10">
           Cloud Technology
         </h1>
-        <div className="flex flex-row space-x-5 mt-1">
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+        <div className="flex flex-row space-x-5 mt-2">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <i className="devicon-heroku-plain colored"></i>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
@@ -79,7 +83,7 @@ const Skills: React.FC = () => {
               />
             </svg>
           </p>
-          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl   font-black leading-7 md:leading-10 mt-2 md:mt-4">
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl font-black leading-7 md:leading-10 mt-2 md:mt-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
@@ -91,6 +95,9 @@ const Skills: React.FC = () => {
             >
               <path d="m128 0l128 221.705H0z" />
             </svg>{" "}
+          </p>
+          <p className="text-5xl sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl font-black leading-7 md:leading-10 mt-2 md:mt-4">
+            <i className="devicon-firebase-plain colored"></i>
           </p>
         </div>
       </div>
