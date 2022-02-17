@@ -23,12 +23,12 @@ const Resume: NextPage = () => {
         <div className="mt-16">
           <h2 className="text-3xl font-extrabold">Skills</h2>
           <div className="mt-6 info-block">
-            <h3>Languages and Libraries/Frameworks</h3>
+            <h3>Languages/Frameworks</h3>
             <p>
-              JavaScript React/NextJS Redux Node.js Tailwind CSS Heroku Express
+              JavaScript, React/NextJS, Redux, Node.js, Tailwind CSS, Express
               Sequelize/SQL
             </p>
-            <h3>Cloud Tech</h3>
+            <h3>Cloud Technology</h3>
             <p>Heroku, Netlify, Vercel</p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Resume: NextPage = () => {
                   edge development technologies. The JavaScript-driven
                   curriculum provides immersion in the latest web technologies.
                 </li>
-                <li>Front-End Skills: React, Redux, HTML, CSS</li>
+                <li>Front-End Skills: Javascript, React, Redux, HTML, CSS</li>
                 <li>
                   Back-End Skills: Node.js, Express, PostgreSQL, Sequelize
                 </li>
@@ -132,7 +132,7 @@ const Resume: NextPage = () => {
         <div className="mt-12">
           <h2 className="text-3xl font-extrabold">Open-source Work</h2>
           <div className="mt-6 prose">
-            <ul className="text-gray-200 ml-4">
+            <ul className="ml-4 text-gray-200">
               <li>
                 <a
                   href="https://github.com/Charmander-Cluster/sweatdeck"
