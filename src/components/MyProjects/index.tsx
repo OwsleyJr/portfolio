@@ -18,14 +18,15 @@ const MyProjects: React.FC = () => {
           <div className="container py-10 mx-auto md:mt-2">
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 bg-purple-500 border border-purple-500 rounded-lg shadow-lg h-80 shadow-black">
+                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-purple-500 border border-purple-500 rounded-lg shadow-lg h-80 shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-purple-500">
                   <div>
                     <a
                       href="https://github.com/sct/overseerr"
                       target="_blank"
                       rel="noreferrer"
+                      className="text-white hover:text-white"
                     >
-                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                      <h4 className="mb-3 text-3xl font-bold text-gray-100 ">
                         Overseerr
                       </h4>
                     </a>
@@ -62,12 +63,13 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 border rounded-lg shadow-lg h-80 shadow-black bg-cyan-500 border-cyan-500">
+                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 border rounded-lg shadow-lg h-80 shadow-black bg-cyan-500 border-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-cyan-500">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/Home-UI"
                       target="_blank"
                       rel="noreferrer"
+                      className="text-white hover:text-white"
                     >
                       <h4 className="mb-3 text-3xl font-bold text-gray-100">
                         Home-UI
@@ -106,12 +108,13 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 bg-teal-500 border border-teal-500 rounded-lg shadow-lg h-80 shadow-black">
+                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-teal-500 border border-teal-500 rounded-lg shadow-lg h-80 shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-teal-500">
                   <div>
                     <a
                       href="https://github.com/Charmander-Cluster/sweatdeck"
                       target="_blank"
                       rel="noreferrer"
+                      className="text-white hover:text-white"
                     >
                       <h4 className="mb-3 text-3xl font-bold text-gray-100">
                         Sweatdeck
