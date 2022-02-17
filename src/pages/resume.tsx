@@ -160,15 +160,15 @@ const Resume: NextPage = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/OwsleyJr/hass-frontend"
+                  href="https://github.com/OwsleyJr/home-ui"
                   target="_blank"
                   rel="noreferrer"
                   className="text-teal-500"
                 >
-                  HASS Frontend
+                  Home-UI
                 </a>{" "}
-                - HASS Frontend is a custom built Home assistant tailored to
-                your specific needs.
+                - Home-UI is a custom built Home assistant frontend tailored to
+                your specific UI and home automation needs.
               </li>
             </ul>
             <p className="text-gray-200">

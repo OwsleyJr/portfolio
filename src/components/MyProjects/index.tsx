@@ -5,7 +5,7 @@ import projectsImg from "../../assets/projects.png";
 const MyProjects: React.FC = () => {
   return (
     <div className="container mx-auto flex flex-col items-center pt-14 sm:py-24">
-      <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-start flex-col md:mt-20">
+      <div className="w-11/12 lg:flex justify-center items-start flex-col md:mt-20">
         <div className="flex flex-row">
           <div className="w-16 h-16 sm:w-24 sm:h-24 relative">
             <Image src={projectsImg} alt="projectsImage" layout="fill" />
@@ -18,23 +18,23 @@ const MyProjects: React.FC = () => {
           <div className="mx-auto container py-10">
             <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
               <div className="rounded-md">
-                <div className="w-full h-72 flex flex-col shadow-lg shadow-black justify-between bg-purple-500 rounded-lg border border-purple-500 mb-6 py-5 px-4">
+                <div className="w-full h-80 flex flex-col shadow-lg shadow-black justify-between bg-purple-500 rounded-lg border border-purple-500 mb-6 py-5 px-4">
                   <div>
-                    <h4 className="text-gray-100 font-bold mb-3 text-xl">
+                    <h4 className="text-gray-100 font-bold mb-3 text-3xl">
                       Overseerr
                     </h4>
-                    <p className="text-gray-100 text-sm">
+                    <p className="text-gray-100 text-lg">
                       Overseerr is a free and open source software application
                       for managing requests for your media library.
                     </p>
-                    <p className="text-gray-100 text-sm mt-2">
+                    <p className="text-gray-100 text-lg mt-2">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Express, Plex API
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="text-sm">August 16, 2020</p>
+                      <p className="text-md">August 16, 2020</p>
                       <div className="w-8 h-8 rounded-full   bg-gray-100 text-gray-800 flex items-center justify-center">
                         <a
                           href="https://github.com/sct/overseerr"
@@ -56,23 +56,23 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="w-full h-72 flex flex-col shadow-lg shadow-black justify-between bg-cyan-500 rounded-lg border border-cyan-500 mb-6 py-5 px-4">
+                <div className="w-full h-80 flex flex-col shadow-lg shadow-black justify-between bg-cyan-500 rounded-lg border border-cyan-500 mb-6 py-5 px-4">
                   <div>
-                    <h4 className="text-gray-100 font-bold mb-3 text-xl">
+                    <h4 className="text-gray-100 font-bold mb-3 text-3xl">
                       Home-UI
                     </h4>
-                    <p className="text-gray-100 text-sm">
+                    <p className="text-gray-100 text-lg">
                       Home-UI is a custom built Home assistant frontend tailored
-                      to your specific needs.
+                      to your specific UI and home automation needs.
                     </p>
-                    <p className="text-gray-100 text-sm mt-2">
+                    <p className="text-gray-100 text-lg mt-2">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Home Assistant
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="text-sm">January 25, 2022</p>
+                      <p className="text-md">January 25, 2022</p>
                       <div className="w-8 h-8 rounded-full bg-gray-100 text-white flex items-center justify-center">
                         <a
                           href="https://github.com/OwsleyJr/Home-UI"
@@ -94,24 +94,24 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="w-full h-72 flex flex-col shadow-lg shadow-black justify-between bg-teal-500 rounded-lg border border-teal-500 mb-6 py-5 px-4">
+                <div className="w-full h-80 flex flex-col shadow-lg shadow-black justify-between bg-teal-500 rounded-lg border border-teal-500 mb-6 py-5 px-4">
                   <div>
-                    <h4 className="text-gray-100 font-bold mb-3 text-xl">
+                    <h4 className="text-gray-100 font-bold mb-3 text-3xl">
                       Sweatdeck
                     </h4>
-                    <p className="text-gray-100 text-sm">
+                    <p className="text-gray-100 text-lg">
                       Sweatdeck is a full stack RESTful web application to log
                       your cardio and strength workouts along with one of your
                       Spotify playlists.
                     </p>
-                    <p className="text-gray-100 text-sm mt-2">
+                    <p className="text-gray-100 text-lg mt-2">
                       Tech Stack: Javascript, React/Redux, Node.js, Spotify API,
                       PWA, Express, Firebase, TailwindCSS
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="text-sm">January 27, 2022</p>
+                      <p className="text-md">January 27, 2022</p>
                       <div className="w-8 h-8 rounded-full bg-gray-100 text-gray-800 flex items-center justify-center">
                         <a
                           href="https://github.com/Charmander-Cluster/sweatdeck"
