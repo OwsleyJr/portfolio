@@ -1,17 +1,24 @@
 import React from "react";
+import Image from "next/image";
+import projectsImg from "../../assets/projects.png";
 
 const MyProjects: React.FC = () => {
   return (
     <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">
-      <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-start flex-col mt-20">
-        <h1 className="text-2xl sm:text-xl md:text-2xl lg:text-5xl xl:text-6xl text-center text-white font-black leading-7 md:leading-10">
-          Latest Projects
-        </h1>
+      <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-start flex-col md:mt-20">
+        <div className="flex flex-row">
+          <div className="w-16 h-16 sm:w-24 sm:h-24 relative">
+            <Image src={projectsImg} alt="projectsImage" layout="fill" />
+          </div>
+          <h1 className="text-5xl sm:text-lg md:text-4xl ml-2 mt-5 lg:text-7xl md:mt-0 xl:text-8xl text-center text-white font-black leading-7 md:leading-10">
+            Projects
+          </h1>
+        </div>
         <div>
           <div className="mx-auto container py-10">
             <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-              <div className="rounded">
-                <div className="w-full h-72 flex flex-col justify-between bg-purple-500 rounded-lg border border-purple-500 mb-6 py-5 px-4">
+              <div className="rounded-md">
+                <div className="w-full h-72 flex flex-col shadow-lg shadow-black justify-between bg-purple-500 rounded-lg border border-purple-500 mb-6 py-5 px-4">
                   <div>
                     <h4 className="text-gray-100 font-bold mb-3 text-xl">
                       Overseerr
@@ -48,8 +55,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="rounded">
-                <div className="w-full h-72 flex flex-col justify-between bg-cyan-500 rounded-lg border border-cyan-500 mb-6 py-5 px-4">
+              <div className="rounded-md">
+                <div className="w-full h-72 flex flex-col shadow-lg shadow-black justify-between bg-cyan-500 rounded-lg border border-cyan-500 mb-6 py-5 px-4">
                   <div>
                     <h4 className="text-gray-100 font-bold mb-3 text-xl">
                       Home-UI
@@ -86,8 +93,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="rounded">
-                <div className="w-full h-72 flex flex-col justify-between bg-teal-500 rounded-lg border border-teal-500 mb-6 py-5 px-4">
+              <div className="rounded-md">
+                <div className="w-full h-72 flex flex-col shadow-lg shadow-black justify-between bg-teal-500 rounded-lg border border-teal-500 mb-6 py-5 px-4">
                   <div>
                     <h4 className="text-gray-100 font-bold mb-3 text-xl">
                       Sweatdeck

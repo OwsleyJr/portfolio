@@ -1,9 +1,10 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Layout from "../components/Layout";
+import { motion } from "framer-motion";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <Layout>
       <Head>
@@ -11,6 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="This is my portfolio" />
         <meta property="og:site_name" content="z3hn.dev" data-rh="true"></meta>
         <meta property="og:title" content="z3hn.dev" data-rh="true"></meta>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+        ></link>
         <meta
           property="og:description"
           content="This is my portfolio"
@@ -22,7 +27,21 @@ function MyApp({ Component, pageProps }: AppProps) {
           data-rh="true"
         ></meta>
       </Head>
-      <Component {...pageProps} />
+      <motion.div
+        key={router.route}
+        initial="initial"
+        animate="animate"
+        variants={{
+          initial: {
+            opacity: 0,
+          },
+          animate: {
+            opacity: 1,
+          },
+        }}
+      >
+        <Component {...pageProps} />
+      </motion.div>
     </Layout>
   );
 }
