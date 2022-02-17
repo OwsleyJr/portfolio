@@ -10,11 +10,11 @@ const Skills: React.FC = () => {
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={brainImg} alt="brainImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white sm:text-lg md:text-4xl sm:mt-0 lg:text-7xl xl:text-8xl md:leading-10">
+          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-lg md:text-4xl sm:mt-0 lg:text-7xl xl:text-8xl md:leading-10">
             Skills
           </h1>
         </div>
-        <h1 className="mt-4 text-3xl font-black leading-7 text-teal-600 sm:text-lg md:text-xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
+        <h1 className="mt-4 text-3xl font-black leading-7 text-teal-600 cursor-default sm:text-lg md:text-xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
           Languages/Frameworks
         </h1>
 
@@ -47,7 +47,7 @@ const Skills: React.FC = () => {
             <i className="devicon-sequelize-plain colored"></i>
           </p>
         </div>
-        <h1 className="mt-5 text-3xl font-black leading-7 text-teal-600 sm:text-lg md:text-xl lg:text-4xl xl:text-5xl md:leading-10">
+        <h1 className="mt-5 text-3xl font-black leading-7 text-teal-600 cursor-default sm:text-lg md:text-xl lg:text-4xl xl:text-5xl md:leading-10">
           Cloud Technology
         </h1>
         <div className="flex flex-row mt-2 space-x-5">

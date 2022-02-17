@@ -10,7 +10,7 @@ const MyProjects: React.FC = () => {
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={projectsImg} alt="projectsImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white sm:text-lg md:text-4xl lg:text-7xl md:mt-0 xl:text-8xl md:leading-10">
+          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-lg md:text-4xl lg:text-7xl md:mt-0 xl:text-8xl md:leading-10">
             Projects
           </h1>
         </div>
@@ -20,21 +20,27 @@ const MyProjects: React.FC = () => {
               <div className="rounded-md">
                 <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 bg-purple-500 border border-purple-500 rounded-lg shadow-lg h-80 shadow-black">
                   <div>
-                    <h4 className="mb-3 text-3xl font-bold text-gray-100">
-                      Overseerr
-                    </h4>
-                    <p className="text-lg text-gray-100">
+                    <a
+                      href="https://github.com/sct/overseerr"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                        Overseerr
+                      </h4>
+                    </a>
+                    <p className="text-lg text-gray-100 cursor-default">
                       Overseerr is a free and open source software application
                       for managing requests for your media library.
                     </p>
-                    <p className="mt-2 text-lg text-gray-100">
+                    <p className="mt-2 text-lg text-gray-100 cursor-default">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Express, Plex API
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="text-md">August 16, 2020</p>
+                      <p className="cursor-default text-md">August 16, 2020</p>
                       <div className="flex items-center justify-center w-8 h-8 text-gray-800 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/sct/overseerr"
@@ -58,21 +64,27 @@ const MyProjects: React.FC = () => {
               <div className="rounded-md">
                 <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 border rounded-lg shadow-lg h-80 shadow-black bg-cyan-500 border-cyan-500">
                   <div>
-                    <h4 className="mb-3 text-3xl font-bold text-gray-100">
-                      Home-UI
-                    </h4>
-                    <p className="text-lg text-gray-100">
+                    <a
+                      href="https://github.com/OwsleyJr/Home-UI"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                        Home-UI
+                      </h4>
+                    </a>
+                    <p className="text-lg text-gray-100 cursor-default">
                       Home-UI is a custom built Home assistant frontend tailored
                       to your specific UI and home automation needs.
                     </p>
-                    <p className="mt-2 text-lg text-gray-100">
+                    <p className="mt-2 text-lg text-gray-100 cursor-default">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Home Assistant
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="text-md">January 25, 2022</p>
+                      <p className="cursor-default text-md">January 25, 2022</p>
                       <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/OwsleyJr/Home-UI"
@@ -96,22 +108,28 @@ const MyProjects: React.FC = () => {
               <div className="rounded-md">
                 <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 bg-teal-500 border border-teal-500 rounded-lg shadow-lg h-80 shadow-black">
                   <div>
-                    <h4 className="mb-3 text-3xl font-bold text-gray-100">
-                      Sweatdeck
-                    </h4>
-                    <p className="text-lg text-gray-100">
+                    <a
+                      href="https://github.com/Charmander-Cluster/sweatdeck"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                        Sweatdeck
+                      </h4>
+                    </a>
+                    <p className="text-lg text-gray-100 cursor-default">
                       Sweatdeck is a full stack RESTful web application to log
                       your cardio and strength workouts along with one of your
                       Spotify playlists.
                     </p>
-                    <p className="mt-2 text-lg text-gray-100">
+                    <p className="mt-2 text-lg text-gray-100 cursor-default">
                       Tech Stack: Javascript, React/Redux, Node.js, Spotify API,
                       PWA, Express, Firebase, TailwindCSS
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="text-md">January 27, 2022</p>
+                      <p className="cursor-default text-md">January 27, 2022</p>
                       <div className="flex items-center justify-center w-8 h-8 text-gray-800 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/Charmander-Cluster/sweatdeck"
