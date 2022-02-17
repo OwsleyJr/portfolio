@@ -5,7 +5,7 @@ import vrImg from "../../assets/vr.png";
 
 const About: React.FC = () => {
   return (
-    <div className="pb-12 overflow-y-hidden">
+    <div className="overflow-y-hidden">
       {/* Code block starts */}
       <div>
         <div>

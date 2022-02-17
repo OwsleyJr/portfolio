@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
             Skills
           </h1>
         </div>
-        <h1 className="text-3xl sm:text-lg md:text-xl lg:text-4xl xl:text-4xl mt-4 md:mt-6 text-teal-600 font-black leading-7 md:leading-10">
+        <h1 className="text-3xl sm:text-lg md:text-xl lg:text-4xl xl:text-5xl mt-4 md:mt-6 text-teal-600 font-black leading-7 md:leading-10">
           Languages/Frameworks
         </h1>
 
@@ -47,7 +47,7 @@ const Skills: React.FC = () => {
             <i className="devicon-sequelize-plain colored"></i>
           </p>
         </div>
-        <h1 className="text-3xl sm:text-lg md:text-xl lg:text-4xl xl:text-4xl mt-5 text-teal-600 font-black leading-7 md:leading-10">
+        <h1 className="text-3xl sm:text-lg md:text-xl lg:text-4xl xl:text-5xl mt-5 text-teal-600 font-black leading-7 md:leading-10">
           Cloud Technology
         </h1>
         <div className="flex flex-row space-x-5 mt-2">
