@@ -22,9 +22,9 @@ const About: React.FC = () => {
                 I am a Software Engineer who lives and works in South Florida.
                 Coding is my passion.{" "}
               </p>
-              <p className="mt-6 text-3xl font-bold leading-7 text-teal-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-10 md:mt-8">
+              {/* <p className="mt-6 text-3xl font-bold leading-7 text-teal-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-10 md:mt-8">
                 Check out the links at the top to learn more about what I do!
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
