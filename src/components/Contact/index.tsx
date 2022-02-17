@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
             </p>
           </a>
         </div>
-        <div className="flex flex-row  ml-4 mt-3 md:mt-4">
+        <div className="flex flex-row ml-4 mt-3 md:mt-4">
           <div className="rounded-full text-white flex items-center justify-center">
             <Image src={githubImg} alt="githubImage" />
           </div>
