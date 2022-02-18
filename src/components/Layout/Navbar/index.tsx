@@ -5,30 +5,28 @@ const Navbar = () => {
   const [show, setshow] = useState(false);
   return (
     <div>
-      <nav className="2xl:container 2xl:mx-auto sm:py-6 sm:px-7 py-5 px-4">
+      <nav className="px-4 py-5 2xl:container 2xl:mx-auto sm:py-6 sm:px-7">
         {/* For large and Medium-sized Screen */}
         <div className="flex justify-between ">
           <div className="flex flex-row items-center space-x-6">
-            <h1 className=" font-normal text-2xl leading-6 text-teal-600 cursor-default">
+            <h1 className="text-2xl font-normal leading-6 text-teal-600 cursor-default ">
               Z3hn
             </h1>
           </div>
-          <div className="sm:flex space-x-3 items-center hidden">
+          <div className="items-center hidden space-x-3 sm:flex">
             <Link href="/">
-              <a className=" font-normal text-2xl leading-6 text-white">Home</a>
+              <a className="text-2xl font-bold leading-6 text-white ">Home</a>
             </Link>
             <Link href="/projects">
-              <a className=" font-normal text-2xl leading-6 text-white">
+              <a className="text-2xl font-bold leading-6 text-white ">
                 Projects
               </a>
             </Link>
             <Link href="/skills">
-              <a className=" font-normal text-2xl leading-6 text-white">
-                Skills
-              </a>
+              <a className="text-2xl font-bold leading-6 text-white ">Skills</a>
             </Link>
             <Link href="/contact">
-              <a className=" font-normal text-2xl leading-6 text-white">
+              <a className="text-2xl font-bold leading-6 text-white ">
                 Contact
               </a>
             </Link>
@@ -48,7 +46,7 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                className=" transform duration-150"
+                className="duration-150 transform "
                 d="M4 6H20"
                 stroke="#ffffff"
                 strokeWidth="1.5"
@@ -63,7 +61,7 @@ const Navbar = () => {
                 strokeLinejoin="round"
               />
               <path
-                className="transform duration-150"
+                className="duration-150 transform"
                 d="M4 18H20"
                 stroke="#ffffff"
                 strokeWidth="1.5"
@@ -103,29 +101,29 @@ const Navbar = () => {
         >
           <div className="flex flex-row items-center justify-center space-x-6">
             <Link href="/">
-              <a className=" font-normal text-2xl leading-6 text-white">Home</a>
+              <a className="text-2xl font-normal leading-6 text-white ">Home</a>
             </Link>
             <Link href="/projects">
-              <a className=" font-normal text-2xl leading-6 text-white">
+              <a className="text-2xl font-normal leading-6 text-white ">
                 Projects
               </a>
             </Link>
             <Link href="/skills">
-              <a className=" font-normal text-2xl leading-6 text-white">
+              <a className="text-2xl font-normal leading-6 text-white ">
                 Skills
               </a>
             </Link>
             <Link href="/contact">
-              <a className=" font-normal text-2xl leading-6 text-white">
+              <a className="text-2xl font-normal leading-6 text-white ">
                 Contact
               </a>
             </Link>
           </div>
-          {/* <div className="flex flex-col gap-4 mt-4 w-80 mx-auto ">
-            <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-indigo-700 bg-indigo-600 bg-opacity-0 hover:opacity-100 duration-100 border border-indigo-700 focus:outline-none focus:bg-gray-200 hover:bg-gray-200 duration-150 justify-center items-center">
+          {/* <div className="flex flex-col gap-4 mx-auto mt-4 w-80 ">
+            <button className="flex items-center justify-center w-full h-10 space-x-2 text-sm font-normal leading-3 text-indigo-700 duration-100 duration-150 bg-indigo-600 bg-opacity-0 border border-indigo-700 rounded-md hover:opacity-100 focus:outline-none focus:bg-gray-200 hover:bg-gray-200">
               Sign Up
             </button>
-            <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:bg-indigo-600 duration-150 justify-center items-center">
+            <button className="flex items-center justify-center w-full h-10 space-x-2 text-sm font-normal leading-3 text-white duration-150 bg-indigo-700 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:bg-indigo-600">
               Sign In
             </button>
           </div> */}
