@@ -14,7 +14,7 @@ const About: React.FC = () => {
             <div className="flex-col items-start justify-center w-11/12 mb-48 sm:w-2/3 lg:flex sm:mb-12">
               <div className="flex flex-row">
                 <div>
-                  <h1 className="mt-3 text-4xl font-black leading-10 text-center text-white cursor-default sm:text-2xl md:text-4xl lg:text-7xl xl:text-8xl md:mt-1 md:leading-10">
+                  <h1 className="mt-2 text-4xl font-black leading-10 text-center text-white cursor-default sm:text-2xl md:text-4xl lg:text-7xl xl:text-8xl md:mt-1 md:leading-10">
                     Hi, I'm Brandon!
                   </h1>
                 </div>
