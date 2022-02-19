@@ -17,47 +17,49 @@ const Contact: React.FC = () => {
             Contact
           </h1>
         </div>
-        <div className="flex flex-row mt-4 ml-2 md:mt-6">
-          <div className="flex items-center justify-center text-white">
-            <Image src={emailImg} alt="emailImage" />
+        <div className="animate__animated animate__backInLeft">
+          <div className="flex flex-row mt-4 ml-2 md:mt-6">
+            <div className="flex items-center justify-center text-white">
+              <Image src={emailImg} alt="emailImage" />
+            </div>
+            <a
+              href="mailto:cohbrandon@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
+                Email
+              </p>
+            </a>
           </div>
-          <a
-            href="mailto:cohbrandon@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
-              Email
-            </p>
-          </a>
-        </div>
-        <div className="flex flex-row mt-3 ml-2 md:mt-4">
-          <div className="flex items-center justify-center text-white rounded-full">
-            <Image src={githubImg} alt="githubImage" />
+          <div className="flex flex-row mt-3 ml-2 md:mt-4">
+            <div className="flex items-center justify-center text-white rounded-full">
+              <Image src={githubImg} alt="githubImage" />
+            </div>
+            <a
+              href="https://github.com/OwsleyJr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
+                Github
+              </p>
+            </a>
           </div>
-          <a
-            href="https://github.com/OwsleyJr"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
-              Github
-            </p>
-          </a>
-        </div>
-        <div className="flex flex-row mt-3 ml-2 md:mt-4">
-          <div className="flex items-center justify-center text-white rounded-full">
-            <Image src={linkedinImg} alt="linkedinImage" />
+          <div className="flex flex-row mt-3 ml-2 md:mt-4">
+            <div className="flex items-center justify-center text-white rounded-full">
+              <Image src={linkedinImg} alt="linkedinImage" />
+            </div>
+            <a
+              href="https://www.linkedin.com/in/cohbrandon/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
+                LinkedIn
+              </p>
+            </a>
           </div>
-          <a
-            href="https://www.linkedin.com/in/cohbrandon/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
-              LinkedIn
-            </p>
-          </a>
         </div>
       </div>
     </div>

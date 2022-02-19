@@ -1,8 +1,8 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Layout from "../components/Layout";
-import { motion } from "framer-motion";
 import "../styles/globals.css";
+import "animate.css";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
@@ -27,21 +27,8 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           data-rh="true"
         ></meta>
       </Head>
-      <motion.div
-        key={router.route}
-        initial="initial"
-        animate="animate"
-        variants={{
-          initial: {
-            opacity: 0,
-          },
-          animate: {
-            opacity: 1,
-          },
-        }}
-      >
-        <Component {...pageProps} />
-      </motion.div>
+
+      <Component {...pageProps} />
     </Layout>
   );
 }

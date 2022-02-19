@@ -18,6 +18,7 @@ const About: React.FC = () => {
                     Hi, I'm Brandon!
                   </h1>
                 </div>
+
                 <div className="relative ml-4 w-14 h-14 sm:w-28 sm:h-28">
                   <Image
                     src={meImg}
@@ -27,16 +28,17 @@ const About: React.FC = () => {
                   />
                 </div>
               </div>
-              <p className="text-3xl font-black leading-7 text-teal-600 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-10">
-                I am a Software Engineer who lives and works in South Florida.
-                Coding is my passion.{" "}
-              </p>
-              {/* <p className="mt-6 text-3xl font-bold leading-7 text-teal-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-10 md:mt-8">
+              <div className="animate__animated animate__backInLeft">
+                <p className="text-3xl font-black leading-7 text-teal-600 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-10">
+                  I am a Software Engineer who lives and works in South Florida.
+                  Coding is my passion.{" "}
+                </p>
+                {/* <p className="mt-6 text-3xl font-bold leading-7 text-teal-600 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-10 md:mt-8">
                 Check out the links at the top to learn more about what I do!
               </p> */}
-              <Link href="/contact" passHref>
-                <button className="px-6 py-4 mt-8 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-5 sm:mt-10 sm:text-4xl focus:outline-none shadow-black">
-                  {/* <svg
+                <Link href="/contact" passHref>
+                  <button className="px-6 py-4 mt-8 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-5 sm:mt-10 sm:text-4xl focus:outline-none shadow-black">
+                    {/* <svg
                   className="mr-2 w-7 h-7"
                   fill="none"
                   stroke="currentColor"
@@ -56,9 +58,10 @@ const About: React.FC = () => {
                     d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                   ></path>
                 </svg> */}
-                  Contact me!
-                </button>
-              </Link>
+                    Contact me!
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

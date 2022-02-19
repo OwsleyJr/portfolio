@@ -15,7 +15,7 @@ const MyProjects: React.FC = () => {
           </h1>
         </div>
         <div>
-          <div className="container py-10 mx-auto md:mt-2">
+          <div className="container py-10 mx-auto md:mt-2 animate__animated animate__backInLeft">
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
               <div className="rounded-md">
                 <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-purple-500 border border-purple-500 rounded-lg shadow-lg h-80 shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-purple-500">
