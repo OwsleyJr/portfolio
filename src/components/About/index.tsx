@@ -37,7 +37,7 @@ const About: React.FC = () => {
 
               <div className=" animate__animated animate__backInLeft animate__delay-1s">
                 <Link href="/contact" passHref>
-                  <button className="px-6 py-4 mt-8 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-5 sm:mt-10 sm:text-4xl focus:outline-none shadow-black">
+                  <button className="px-6 py-4 mt-6 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-5 sm:mt-10 sm:text-4xl focus:outline-none shadow-black">
                     Contact me!
                   </button>
                 </Link>
