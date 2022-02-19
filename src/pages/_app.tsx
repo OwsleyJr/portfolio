@@ -12,10 +12,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <meta name="description" content="This is my portfolio" />
         <meta property="og:site_name" content="z3hn.dev" data-rh="true"></meta>
         <meta property="og:title" content="z3hn.dev" data-rh="true"></meta>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
-        ></link>
+
         <meta
           property="og:description"
           content="This is my portfolio"

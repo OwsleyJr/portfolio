@@ -22,11 +22,7 @@ const Contact: React.FC = () => {
             <div className="flex items-center justify-center text-white">
               <Image src={emailImg} alt="emailImage" />
             </div>
-            <a
-              href="mailto:cohbrandon@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
               <p className="mt-3 ml-2 text-xl font-black leading-7 text-center text-teal-600 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
                 Email
               </p>
