@@ -35,7 +35,7 @@ const Navbar = () => {
           <div
             id="bgIcon"
             onClick={() => setshow(!show)}
-            className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 sm:hidden absolute left-80 cursor-pointer rounded-md`}
+            className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 sm:hidden absolute left-80 ml-6 cursor-pointer rounded-md`}
           >
             <svg
               className={`${show ? "hidden" : ""}`}
