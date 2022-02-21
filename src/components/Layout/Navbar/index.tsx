@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* For large and Medium-sized Screen */}
         <div className="flex flex-row justify-between">
           <div>
-            <h1 className="text-2xl font-normal leading-6 text-teal-600 cursor-default ">
+            <h1 className="text-2xl font-normal leading-6 text-teal-500 cursor-default ">
               Z3hn
             </h1>
           </div>
