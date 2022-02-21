@@ -4,16 +4,16 @@ import Link from "next/link";
 const Navbar = () => {
   const [show, setshow] = useState(false);
   return (
-    <div>
-      <nav className="px-4 py-5 2xl:container 2xl:mx-auto sm:py-6 sm:px-7">
+    <div className="relative">
+      <nav className="absolute px-4 py-5 2xl:container 2xl:mx-auto sm:py-6 sm:right-60">
         {/* For large and Medium-sized Screen */}
-        <div className="flex justify-between ">
-          <div className="flex flex-row items-center space-x-6">
+        <div className="flex flex-row justify-between">
+          <div>
             <h1 className="text-2xl font-normal leading-6 text-teal-600 cursor-default ">
               Z3hn
             </h1>
           </div>
-          <div className="items-center hidden space-x-3 sm:flex">
+          <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end">
             <Link href="/">
               <a className="text-2xl font-bold leading-6 text-white ">Home</a>
             </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <div
             id="bgIcon"
             onClick={() => setshow(!show)}
-            className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 justify-center items-center sm:hidden cursor-pointer rounded-md`}
+            className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 sm:hidden absolute left-80 cursor-pointer rounded-md`}
           >
             <svg
               className={`${show ? "hidden" : ""}`}
