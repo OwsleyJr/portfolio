@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   const [show, setshow] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative h-14">
       <nav className="absolute px-4 py-5 2xl:container 2xl:mx-auto sm:py-6 sm:right-60">
         {/* For large and Medium-sized Screen */}
         <div className="flex flex-row justify-between">
