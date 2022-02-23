@@ -1,3 +1,3 @@
 ## My portfolio
 
-Get to know me here!
+Built in NextJS and deployed with Vercel.
