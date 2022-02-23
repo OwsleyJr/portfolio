@@ -5,20 +5,20 @@ import projectsImg from "../../assets/projects.png";
 const MyProjects: React.FC = () => {
   return (
     <div className="container flex flex-col items-center mx-auto pt-14 sm:py-24">
-      <div className="flex-col items-start justify-center w-11/12 lg:flex md:mt-20">
+      <div className="flex-col items-start justify-center w-11/12 sm:flex sm:mt-20">
         <div className="flex flex-row">
-          <div className="relative w-16 h-16 sm:w-24 sm:h-24">
+          <div className="relative w-16 h-16 sm:w-20 sm:h-20">
             <Image src={projectsImg} alt="projectsImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-lg md:text-4xl lg:text-7xl md:mt-0 xl:text-8xl md:leading-10">
+          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl lg:mt-5 md:leading-10">
             Projects
           </h1>
         </div>
         <div>
           <div className="container py-10 mx-auto md:mt-2 animate__animated animate__backInLeft">
-            <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-purple-500 border border-purple-500 rounded-lg shadow-lg h-80 shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-purple-500">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-purple-500 border border-purple-500 rounded-lg shadow-lg shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-purple-500">
                   <div>
                     <a
                       href="https://github.com/sct/overseerr"
@@ -30,11 +30,11 @@ const MyProjects: React.FC = () => {
                         Overseerr
                       </h4>
                     </a>
-                    <p className="text-lg text-gray-100 cursor-default">
+                    <p className="text-gray-100 cursor-default sm:text-lg">
                       Overseerr is a free and open source software application
                       for managing requests for your media library.
                     </p>
-                    <p className="mt-2 text-lg text-gray-100 cursor-default">
+                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Express, Plex API
                     </p>
@@ -63,7 +63,7 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 border rounded-lg shadow-lg h-80 shadow-black bg-cyan-500 border-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-cyan-500">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 border rounded-lg shadow-lg shadow-black bg-cyan-500 border-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-cyan-500">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/Home-UI"
@@ -75,11 +75,11 @@ const MyProjects: React.FC = () => {
                         Home-UI
                       </h4>
                     </a>
-                    <p className="text-lg text-gray-100 cursor-default">
+                    <p className="text-gray-100 cursor-default sm:text-lg">
                       Home-UI is a custom built Home assistant frontend tailored
                       to your specific UI and home automation needs.
                     </p>
-                    <p className="mt-2 text-lg text-gray-100 cursor-default">
+                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Home Assistant
                     </p>
@@ -108,7 +108,7 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-teal-500 border border-teal-500 rounded-lg shadow-lg h-80 shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-teal-500">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-4 mb-6 transition duration-300 ease-in-out delay-150 bg-teal-500 border border-teal-500 rounded-lg shadow-lg shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-teal-500">
                   <div>
                     <a
                       href="https://github.com/Charmander-Cluster/sweatdeck"
@@ -120,12 +120,11 @@ const MyProjects: React.FC = () => {
                         Sweatdeck
                       </h4>
                     </a>
-                    <p className="text-lg text-gray-100 cursor-default">
-                      Sweatdeck is a full stack RESTful web application to log
-                      your cardio and strength workouts along with one of your
-                      Spotify playlists.
+                    <p className="text-gray-100 cursor-default sm:text-lg">
+                      Sweatdeck is a full stack web application to log your
+                      workouts along with one of your Spotify playlists.
                     </p>
-                    <p className="mt-2 text-lg text-gray-100 cursor-default">
+                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
                       Tech Stack: Javascript, React/Redux, Node.js, Spotify API,
                       PWA, Express, Firebase, TailwindCSS
                     </p>

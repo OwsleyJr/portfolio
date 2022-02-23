@@ -10,51 +10,51 @@ const Skills: React.FC = () => {
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={brainImg} alt="brainImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-lg md:text-4xl sm:mt-0 lg:text-7xl xl:text-8xl md:leading-10">
+          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:mt-8 md:text-7xl md:leading-10">
             Skills
           </h1>
         </div>
-        <h1 className="mt-4 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-lg md:text-xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
+        <h1 className="mt-4 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
           Languages/Frameworks
         </h1>
 
         <div className="flex flex-row mt-2 space-x-5 animate__animated animate__backInLeft">
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-javascript-plain colored"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-react-original colored"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-nextjs-original"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-redux-original colored"></i>
           </p>
         </div>
 
         <div className="flex flex-row mt-2 space-x-5 md:mt-0 animate__animated animate__backInLeft">
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-nodejs-plain colored"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-tailwindcss-plain colored"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-express-original"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-sequelize-plain colored"></i>
           </p>
         </div>
-        <h1 className="mt-5 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-lg md:text-xl lg:text-4xl xl:text-5xl md:leading-10">
+        <h1 className="mt-5 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:leading-10">
           Cloud Technology
         </h1>
         <div className="flex flex-row mt-2 space-x-5 animate__animated animate__backInLeft">
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-heroku-plain colored"></i>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
@@ -83,7 +83,7 @@ const Skills: React.FC = () => {
               />
             </svg>
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
@@ -96,7 +96,7 @@ const Skills: React.FC = () => {
               <path d="m128 0l128 221.705H0z" />
             </svg>{" "}
           </p>
-          <p className="mt-2 text-5xl font-black leading-7 sm:text-xl md:text-2xl lg:text-3xl xl:text-8xl md:leading-10 md:mt-4">
+          <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-firebase-plain colored"></i>
           </p>
         </div>

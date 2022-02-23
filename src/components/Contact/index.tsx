@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={contactImg} alt="contactImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-lg md:text-4xl sm:mt-0 lg:text-7xl xl:text-8xl md:leading-10">
+          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:mt-8 md:text-7xl md:leading-10">
             Contact
           </h1>
         </div>
