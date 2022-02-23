@@ -153,7 +153,7 @@ const MyProjects: React.FC = () => {
                 </div>
               </div>
               <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 border rounded-lg shadow-lg shadow-black bg-cyan-500 border-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-cyan-500">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-blue-500 border border-blue-500 rounded-lg shadow-lg shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-blue-500">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/Home-UI"
