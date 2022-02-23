@@ -11,15 +11,15 @@ const About: React.FC = () => {
       <div>
         <div>
           <div className="container flex flex-col items-center justify-center min-h-screen py-12 mx-auto sm:py-24">
-            <div className="flex-col items-start justify-center w-11/12 mb-48 sm:w-2/3 lg:flex sm:mb-12">
+            <div className="flex-col items-start justify-center w-11/12 mb-48 sm:w-2/3 sm:flex sm:mb-12">
               <div className="flex flex-row">
                 <div>
-                  <h1 className="mt-2 text-4xl font-black leading-10 text-center text-white cursor-default sm:text-2xl md:text-4xl lg:text-7xl xl:text-8xl md:mt-1 md:leading-10">
+                  <h1 className="mt-2 text-4xl font-black leading-10 text-center text-white cursor-default sm:text-8xl sm:mt-1 sm:leading-11">
                     Hi, I'm Brandon!
                   </h1>
                 </div>
 
-                <div className="relative ml-4 w-14 h-14 sm:w-28 sm:h-28">
+                <div className="relative ml-4 w-14 h-14 sm:w-24 sm:h-24">
                   <Image
                     src={meImg}
                     alt="meImage"

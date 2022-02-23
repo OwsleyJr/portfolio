@@ -5,10 +5,10 @@ const Navbar = () => {
   const [show, setshow] = useState(false);
   return (
     <div className="relative h-14">
-      <nav className="absolute px-4 py-5 2xl:container 2xl:mx-auto sm:py-6 sm:right-60">
+      <nav className="absolute px-4 py-5 sm:container sm:mx-auto sm:py-6 sm:inset-0">
         {/* For large and Medium-sized Screen */}
         <div className="flex flex-row justify-between">
-          <div>
+          <div className="">
             <h1 className="text-2xl font-normal leading-6 text-teal-500 cursor-default ">
               Z3hn
             </h1>
