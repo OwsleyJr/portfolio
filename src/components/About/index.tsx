@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import vrImg from "../../assets/vr.png";
 import meImg from "../../assets/me.jpg";
 import Link from "next/link";
 

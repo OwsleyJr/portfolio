@@ -70,7 +70,9 @@ const Navbar = () => {
               />
             </svg>
             <svg
-              className={`${show ? "block" : "hidden"}`}
+              className={`${
+                show ? "block" : "hidden"
+              } animate__animated animate__fadeIn`}
               width={24}
               height={24}
               viewBox="0 0 24 24"
@@ -97,7 +99,9 @@ const Navbar = () => {
         {/* Mobile and small-screen devices (toggle Menu) */}
         <div
           id="MobileNavigation"
-          className={`${show ? "block" : "hidden"} sm:hidden mt-4 mx-auto`}
+          className={`${
+            show ? "block animate__animated animate__fadeIn" : "hidden"
+          } sm:hidden mt-4 mx-auto`}
         >
           <div className="flex flex-row items-center justify-center space-x-6">
             <Link href="/">
