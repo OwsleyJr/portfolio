@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex flex-row justify-between">
           <div className="">
             <h1 className="text-2xl font-normal leading-6 text-teal-500 cursor-default ">
-              Z3hn
+              z3hn
             </h1>
           </div>
           <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end">
