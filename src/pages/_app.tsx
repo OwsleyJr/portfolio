@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import "../styles/globals.css";
 import "animate.css";
 
-function MyApp({ Component, pageProps, router }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>
