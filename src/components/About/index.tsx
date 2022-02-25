@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Image from "next/image";
-import meImg from "../../assets/me.jpg";
+// import Image from "next/image";
+// import meImg from "../../assets/me.jpg";
 import Link from "next/link";
 
 const About: React.FC = () => {
@@ -16,14 +16,14 @@ const About: React.FC = () => {
               </h1>
             </div>
 
-            <div className="relative ml-4 w-14 h-14 sm:w-16 sm:h-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24">
+            {/* <div className="relative ml-4 w-14 h-14 sm:w-16 sm:h-16 lg:h-20 lg:w-20 xl:h-24 xl:w-24">
               <Image
                 src={meImg}
                 alt="meImage"
                 layout="fill"
                 className="object-cover my-4 rounded-full shadow-sm shadow-black"
               />
-            </div>
+            </div> */}
           </div>
           <div className="animate__animated animate__backInLeft">
             <p className="text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl md:leading-10">
