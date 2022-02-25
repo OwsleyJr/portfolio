@@ -104,20 +104,34 @@ const Navbar = () => {
         >
           <div className="flex flex-row items-center justify-center space-x-6">
             <Link href="/">
-              <a className="text-2xl font-normal leading-6 text-white ">Home</a>
+              <a
+                onClick={() => setshow(!show)}
+                className="text-2xl font-normal leading-6 text-white "
+              >
+                Home
+              </a>
             </Link>
             <Link href="/projects">
-              <a className="text-2xl font-normal leading-6 text-white ">
+              <a
+                onClick={() => setshow(!show)}
+                className="text-2xl font-normal leading-6 text-white "
+              >
                 Projects
               </a>
             </Link>
             <Link href="/skills">
-              <a className="text-2xl font-normal leading-6 text-white ">
+              <a
+                onClick={() => setshow(!show)}
+                className="text-2xl font-normal leading-6 text-white "
+              >
                 Skills
               </a>
             </Link>
             <Link href="/contact">
-              <a className="text-2xl font-normal leading-6 text-white ">
+              <a
+                onClick={() => setshow(!show)}
+                className="text-2xl font-normal leading-6 text-white "
+              >
                 Contact
               </a>
             </Link>
