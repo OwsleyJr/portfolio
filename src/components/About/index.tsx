@@ -26,7 +26,7 @@ const About: React.FC = () => {
             </div> */}
           </div>
           <div className="animate__animated animate__backInLeft">
-            <p className="text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl md:leading-10">
+            <p className="mt-1 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl md:leading-10">
               I am a Software Engineer who lives and works in South Florida.
               Coding is my passion.{" "}
             </p>
@@ -34,7 +34,7 @@ const About: React.FC = () => {
 
           <div className=" animate__animated animate__backInLeft animate__delay-1s">
             <Link href="/contact" passHref>
-              <button className="px-6 py-4 mt-6 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-4 md:py-4 lg:py-4 xl:py-5 sm:mt-10 sm:text-4xl focus:outline-none shadow-black">
+              <button className="px-6 py-4 mt-6 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-4 md:py-4 lg:py-4 xl:py-5 sm:mt-9 sm:text-4xl focus:outline-none shadow-black">
                 Contact me!
               </button>
             </Link>
