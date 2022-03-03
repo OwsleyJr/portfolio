@@ -6,7 +6,6 @@ const Navbar = () => {
   return (
     <div className="relative h-14">
       <nav className="absolute px-4 py-5 sm:container sm:mx-auto sm:py-6 sm:inset-0">
-        {/* For large and Medium-sized Screen */}
         <div className="flex flex-row justify-between">
           <h1 className="text-2xl font-normal leading-6 text-teal-500 cursor-default">
             z3hn
@@ -30,7 +29,6 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          {/* Burger Icon */}
           <div
             id="bgIcon"
             onClick={() => setshow(!show)}
@@ -95,7 +93,6 @@ const Navbar = () => {
             </svg>
           </div>
         </div>
-        {/* Mobile and small-screen devices (toggle Menu) */}
         <div
           id="MobileNavigation"
           className={`${
@@ -136,14 +133,6 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          {/* <div className="flex flex-col gap-4 mx-auto mt-4 w-80 ">
-            <button className="flex items-center justify-center w-full h-10 space-x-2 text-sm font-normal leading-3 text-indigo-700 duration-100 duration-150 bg-indigo-600 bg-opacity-0 border border-indigo-700 rounded-md hover:opacity-100 focus:outline-none focus:bg-gray-200 hover:bg-gray-200">
-              Sign Up
-            </button>
-            <button className="flex items-center justify-center w-full h-10 space-x-2 text-sm font-normal leading-3 text-white duration-150 bg-indigo-700 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:bg-indigo-600">
-              Sign In
-            </button>
-          </div> */}
         </div>
       </nav>
     </div>
