@@ -17,7 +17,6 @@ const About: React.FC = () => {
           <div className="animate__animated animate__backInLeft">
             <p className="mt-1 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl md:leading-10">
               I am a Software Engineer who lives and works in South Florida.
-              Coding is my passion.{" "}
             </p>
           </div>
 
