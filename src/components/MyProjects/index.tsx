@@ -24,7 +24,7 @@ const MyProjects: React.FC = () => {
                       href="https://github.com/sct/overseerr"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-white hover:text-white"
+                      className="text-purple-500 hover:text-purple-500"
                     >
                       <h4 className="z-40 mb-3 text-3xl font-extrabold text-purple-500">
                         Overseerr
@@ -71,7 +71,7 @@ const MyProjects: React.FC = () => {
                       href="https://github.com/Charmander-Cluster/sweatdeck"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-white hover:text-white"
+                      className="text-teal-500 hover:text-teal-500"
                     >
                       <h4 className="mb-3 text-3xl font-extrabold text-teal-500">
                         Sweatdeck
@@ -118,7 +118,7 @@ const MyProjects: React.FC = () => {
                       href="https://github.com/Prime-Directive-Detectives/GraceShopper"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-white hover:text-white"
+                      className="text-amber-500 hover:text-amber-500"
                     >
                       <h4 className="mb-3 text-3xl font-extrabold text-amber-500">
                         Graceshopper
@@ -165,7 +165,7 @@ const MyProjects: React.FC = () => {
                       href="https://github.com/OwsleyJr/Home-UI"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-white hover:text-white"
+                      className="text-cyan-500 hover:text-cyan-500"
                     >
                       <h4 className="mb-3 text-3xl font-extrabold text-cyan-500">
                         Home-UI
@@ -212,7 +212,7 @@ const MyProjects: React.FC = () => {
                       href="https://github.com/OwsleyJr/portfolio"
                       target="_blank"
                       rel="noreferrer"
-                      className="text-white hover:text-white"
+                      className="text-blue-500 hover:text-blue-500"
                     >
                       <h4 className="mb-3 text-3xl font-extrabold text-blue-500">
                         Portfolio
