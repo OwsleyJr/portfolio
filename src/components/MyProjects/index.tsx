@@ -17,8 +17,8 @@ const MyProjects: React.FC = () => {
         <div>
           <div className="container mx-auto py-7 md:mt-2 animate__animated animate__backInLeft">
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-os-image hover:-translate-y-1 hover:scale-105">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border border-white rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover bg-os-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-white rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/sct/overseerr"
@@ -64,8 +64,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-gs-image hover:-translate-y-1 hover:scale-105">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-lg bg-gs-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/Prime-Directive-Detectives/GraceShopper"
@@ -111,8 +111,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-hu-image hover:-translate-y-1 hover:scale-105">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover bg-hu-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/Home-UI"
@@ -158,8 +158,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-sd-image hover:-translate-y-1 hover:scale-105">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover bg-sd-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/Charmander-Cluster/sweatdeck"
@@ -205,8 +205,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-center rounded-md bg-pf-image hover:-translate-y-1 hover:scale-105">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-blur-sm backdrop-brightness-50 shadow-black">
+              <div className="transition duration-300 ease-in-out delay-150 bg-center bg-pf-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 rounded-lg shadow-lg backdrop-blur-sm backdrop-brightness-50 shadow-black">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/portfolio"
