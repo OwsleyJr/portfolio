@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/assets/background.jpg')",
+        'os-image': "url('../assets/OSScreenshot.png')",
+        'gs-image': "url('../assets/graceshopper.png')",
+        'hu-image': "url('../assets/homeui.png')",
+        'sd-image': "url('../assets/sweatdeck.png')",
+        'pf-image': "url('../assets/portfolio.png')",
       },
     },
   },

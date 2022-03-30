@@ -17,8 +17,8 @@ const MyProjects: React.FC = () => {
         <div>
           <div className="container mx-auto py-7 md:mt-2 animate__animated animate__backInLeft">
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-              <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-purple-500 border border-purple-500 rounded-lg shadow-lg shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-purple-500">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-os-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border border-white rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/sct/overseerr"
@@ -26,22 +26,24 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-white hover:text-white"
                     >
-                      <h4 className="mb-3 text-3xl font-bold text-gray-100 ">
+                      <h4 className="z-40 mb-3 text-3xl font-extrabold text-purple-500">
                         Overseerr
                       </h4>
                     </a>
-                    <p className="text-gray-100 cursor-default sm:text-lg">
+                    <p className="font-bold text-gray-100 cursor-default sm:text-lg">
                       Overseerr is a free and open source software application
                       for managing requests for your media library.
                     </p>
-                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
+                    <p className="mt-2 font-bold text-gray-100 cursor-default sm:text-lg">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Express, Plex API
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="cursor-default text-md">August 16, 2020</p>
+                      <p className="font-bold cursor-default text-md">
+                        August 16, 2020
+                      </p>
                       <div className="flex items-center justify-center w-8 h-8 text-gray-800 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/sct/overseerr"
@@ -62,8 +64,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 border rounded-lg shadow-lg bg-amber-500 border-amber-500 shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-amber-500">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-gs-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/Prime-Directive-Detectives/GraceShopper"
@@ -71,22 +73,24 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-white hover:text-white"
                     >
-                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                      <h4 className="mb-3 text-3xl font-extrabold text-amber-500">
                         Graceshopper
                       </h4>
                     </a>
-                    <p className="text-gray-100 cursor-default sm:text-lg">
+                    <p className="font-bold text-gray-100 cursor-default sm:text-lg">
                       An ecommerce app built and designed in a week to showcase
                       my coding skills.
                     </p>
-                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
-                      Tech stack: JavascriptScript, React/NextJS, TailwindCSS,
-                      Swiper.js, Stripe, Heroku
+                    <p className="mt-2 font-bold text-gray-100 cursor-default sm:text-lg">
+                      Tech stack: Javascript, React, TailwindCSS, Swiper.js,
+                      Stripe, Heroku
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="cursor-default text-md">January 19, 2022</p>
+                      <p className="font-bold cursor-default text-md">
+                        January 19, 2022
+                      </p>
                       <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/Prime-Directive-Detectives/GraceShopper"
@@ -107,8 +111,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 border rounded-lg shadow-lg shadow-black bg-cyan-500 border-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-cyan-500">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-hu-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/Home-UI"
@@ -116,22 +120,24 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-white hover:text-white"
                     >
-                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                      <h4 className="mb-3 text-3xl font-extrabold text-cyan-500">
                         Home-UI
                       </h4>
                     </a>
-                    <p className="text-gray-100 cursor-default sm:text-lg">
+                    <p className="font-bold text-gray-100 cursor-default sm:text-lg">
                       Home-UI is a custom built Home assistant frontend tailored
                       to your specific UI and home automation needs.
                     </p>
-                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
+                    <p className="mt-2 font-bold text-gray-100 cursor-default sm:text-lg">
                       Tech stack: TypeScript, React/NextJS, Node.js,
                       TailwindCSS, Home Assistant
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="cursor-default text-md">January 25, 2022</p>
+                      <p className="font-bold cursor-default text-md">
+                        January 25, 2022
+                      </p>
                       <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/OwsleyJr/Home-UI"
@@ -152,8 +158,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-4 mb-6 transition duration-300 ease-in-out delay-150 bg-teal-500 border border-teal-500 rounded-lg shadow-lg shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-teal-500">
+              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-md bg-sd-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
                       href="https://github.com/Charmander-Cluster/sweatdeck"
@@ -161,22 +167,24 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-white hover:text-white"
                     >
-                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                      <h4 className="mb-3 text-3xl font-extrabold text-teal-500">
                         Sweatdeck
                       </h4>
                     </a>
-                    <p className="text-gray-100 cursor-default sm:text-lg">
+                    <p className="font-bold text-gray-100 cursor-default sm:text-lg">
                       Sweatdeck is a full stack web application to log your
                       workouts along with one of your Spotify playlists.
                     </p>
-                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
+                    <p className="mt-2 font-bold text-gray-100 cursor-default sm:text-lg">
                       Tech Stack: Javascript, React/Redux, Node.js, Spotify API,
                       PWA, Express, Firebase, TailwindCSS
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="cursor-default text-md">January 27, 2022</p>
+                      <p className="font-bold cursor-default text-md">
+                        January 27, 2022
+                      </p>
                       <div className="flex items-center justify-center w-8 h-8 text-gray-800 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/Charmander-Cluster/sweatdeck"
@@ -197,8 +205,8 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md">
-                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 transition duration-300 ease-in-out delay-150 bg-blue-500 border border-blue-500 rounded-lg shadow-lg shadow-black hover:-translate-y-1 hover:scale-105 hover:bg-blue-500">
+              <div className="transition duration-300 ease-in-out delay-150 bg-center rounded-md bg-pf-image hover:-translate-y-1 hover:scale-105">
+                <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border rounded-lg shadow-lg backdrop-blur-sm backdrop-brightness-50 shadow-black">
                   <div>
                     <a
                       href="https://github.com/OwsleyJr/portfolio"
@@ -206,22 +214,22 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-white hover:text-white"
                     >
-                      <h4 className="mb-3 text-3xl font-bold text-gray-100">
+                      <h4 className="mb-3 text-3xl font-extrabold text-blue-500">
                         Portfolio
                       </h4>
                     </a>
-                    <p className="text-gray-100 cursor-default sm:text-lg">
+                    <p className="font-bold text-gray-100 cursor-default sm:text-lg">
                       My portfolio was created to showcase my projects and
                       skills with a fast and beautiful design.
                     </p>
-                    <p className="mt-2 text-gray-100 cursor-default sm:text-lg">
+                    <p className="mt-2 font-bold text-gray-100 cursor-default sm:text-lg">
                       Tech stack: TypeScript, React/NextJS, TailwindCSS,
                       Animate.css, Vercel
                     </p>
                   </div>
                   <div>
                     <div className="flex items-center justify-between text-gray-100">
-                      <p className="cursor-default text-md">
+                      <p className="font-bold cursor-default text-md">
                         February 15, 2022
                       </p>
                       <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
