@@ -34,7 +34,7 @@ const Navbar = () => {
   const [show, setshow] = useState(false);
 
   return (
-    <div className="relative h-14">
+    <div className="relative h-14 z-40">
       <nav className="absolute px-4 py-5 sm:container sm:mx-auto sm:py-6 sm:inset-0">
         <div className="flex flex-row justify-between">
           <h1 className="text-2xl font-normal leading-6 text-teal-500 cursor-default">

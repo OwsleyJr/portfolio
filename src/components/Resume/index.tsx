@@ -3,7 +3,7 @@ import React from "react";
 const Resume: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto max-w-7xl">
-      <div className="z-40 flex-1 px-4 pt-6 pb-24 md:px-6 md:py-8">
+      <div className="z-0 flex-1 px-4 pt-10 pb-24 md:px-6 md:py-8">
         <div className="relative z-50 flex flex-col justify-center mx-auto space-y-4">
           <h1 className="text-4xl font-extrabold tracking-tight text-left text-gray-100 sm:text-5xl md:text-6xl">
             <span className="block leading-tight xl:inline">Brandon Cohen</span>
