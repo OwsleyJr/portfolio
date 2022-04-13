@@ -19,7 +19,7 @@ const Resume: React.FC = () => {
             </span>
           </p>
         </div>
-        <div className="mt-16">
+        <div className="mt-12">
           <h2 className="text-3xl font-extrabold">Skills</h2>
           <div className="mt-6 info-block">
             <h3>Languages/Frameworks</h3>
@@ -31,7 +31,7 @@ const Resume: React.FC = () => {
             <p>Heroku, Netlify, Vercel</p>
           </div>
         </div>
-        <div className="mt-16">
+        <div className="mt-12">
           <h2 className="text-3xl font-extrabold">Experience</h2>
           <div className="mt-6 info-block">
             <div className="flex flex-col space-y-1">
@@ -185,7 +185,6 @@ const Resume: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="my-8"></div>
     </div>
   );
 };
