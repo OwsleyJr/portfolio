@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
             Contact
           </h1>
         </div>
-        <div className="animate__animated animate__backInLeft">
+        <div>
           <div className="flex flex-row mt-4 ml-2 md:mt-6">
             <div className="flex items-center justify-center text-white">
               <Image src={emailImg} alt="emailImage" />

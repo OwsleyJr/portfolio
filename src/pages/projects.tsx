@@ -1,9 +1,13 @@
-import React from "react";
 import { NextPage } from "next";
 import MyProjects from "../components/MyProjects";
+import Layout from "../components/Layout";
 
 const ProjectsPage: NextPage = () => {
-  return <MyProjects />;
+  return (
+    <Layout>
+      <MyProjects />
+    </Layout>
+  );
 };
 
 export default ProjectsPage;

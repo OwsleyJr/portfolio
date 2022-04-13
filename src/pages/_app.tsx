@@ -1,12 +1,14 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import Layout from "../components/Layout";
 import "../styles/globals.css";
-import "animate.css";
+import { AnimatePresence } from "framer-motion";
+import Navbar from "../components/Layout/Navbar";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
+  const url = `http://z3hn.dev${router.route}`;
+
   return (
-    <Layout>
+    <>
       <Head>
         <title>z3hn.dev</title>
         <meta name="description" content="This is my portfolio" />
@@ -24,9 +26,14 @@ function MyApp({ Component, pageProps }: AppProps) {
           data-rh="true"
         ></meta>
       </Head>
-
-      <Component {...pageProps} />
-    </Layout>
+      <AnimatePresence
+        exitBeforeEnter
+        onExitComplete={() => window.scrollTo(0, 0)}
+      >
+        <Navbar />
+        <Component {...pageProps} canonical={url} key={url} />
+      </AnimatePresence>
+    </>
   );
 }
 

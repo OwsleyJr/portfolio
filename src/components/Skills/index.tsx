@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
           Languages/Frameworks
         </h1>
 
-        <div className="flex flex-row mt-2 space-x-5 animate__animated animate__backInLeft">
+        <div className="flex flex-row mt-2 space-x-5">
           <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-javascript-plain colored"></i>
           </p>
@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-row mt-2 space-x-5 md:mt-0 animate__animated animate__backInLeft">
+        <div className="flex flex-row mt-2 space-x-5 md:mt-0">
           <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-nodejs-plain colored"></i>
           </p>
@@ -50,7 +50,7 @@ const Skills: React.FC = () => {
         <h1 className="mt-5 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:leading-10">
           Cloud Technology
         </h1>
-        <div className="flex flex-row mt-2 space-x-5 animate__animated animate__backInLeft">
+        <div className="flex flex-row mt-2 space-x-5">
           <p className="mt-2 text-5xl font-black leading-7 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4">
             <i className="devicon-heroku-plain colored"></i>
           </p>

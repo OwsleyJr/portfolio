@@ -1,8 +1,38 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
+
+const links = [
+  { name: "Home", to: "/", id: 1 },
+  { name: "Projects", to: "/projects", id: 2 },
+  { name: "Skills", to: "/skills", id: 3 },
+  { name: "Contact", to: "/contact", id: 4 },
+];
+
+const itemVariants = {
+  closed: {
+    opacity: 0,
+  },
+  open: { opacity: 1 },
+};
+const sideVariants = {
+  closed: {
+    transition: {
+      staggerChildren: 0.2,
+      staggerDirection: -1,
+    },
+  },
+  open: {
+    transition: {
+      staggerChildren: 0.2,
+      staggerDirection: 1,
+    },
+  },
+};
 
 const Navbar = () => {
   const [show, setshow] = useState(false);
+
   return (
     <div className="relative h-14">
       <nav className="absolute px-4 py-5 sm:container sm:mx-auto sm:py-6 sm:inset-0">
@@ -12,18 +42,18 @@ const Navbar = () => {
           </h1>
 
           <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end">
-            <Link href="/">
+            <Link href="/" scroll={false}>
               <a className="text-2xl font-bold leading-6 text-white ">Home</a>
             </Link>
-            <Link href="/projects">
+            <Link href="/projects" scroll={false}>
               <a className="text-2xl font-bold leading-6 text-white ">
                 Projects
               </a>
             </Link>
-            <Link href="/skills">
+            <Link href="/skills" scroll={false}>
               <a className="text-2xl font-bold leading-6 text-white ">Skills</a>
             </Link>
-            <Link href="/contact">
+            <Link href="/contact" scroll={false}>
               <a className="text-2xl font-bold leading-6 text-white ">
                 Contact
               </a>
@@ -67,9 +97,7 @@ const Navbar = () => {
               />
             </svg>
             <svg
-              className={`${
-                show ? "block" : "hidden"
-              } animate__animated animate__fadeIn`}
+              className={`${show ? "block" : "hidden"}`}
               width={24}
               height={24}
               viewBox="0 0 24 24"
@@ -93,47 +121,43 @@ const Navbar = () => {
             </svg>
           </div>
         </div>
-        <div
-          id="MobileNavigation"
-          className={`${
-            show ? "block animate__animated animate__fadeIn" : "hidden"
-          } sm:hidden mt-4 mx-auto`}
-        >
-          <div className="flex flex-row items-center justify-center space-x-6">
-            <Link href="/">
-              <a
-                onClick={() => setshow(!show)}
-                className="text-2xl font-normal leading-6 text-white "
+        <AnimatePresence>
+          {show && (
+            <motion.aside
+              initial={{ width: 0 }}
+              animate={{
+                width: 300,
+              }}
+              exit={{
+                width: 0,
+                transition: { delay: 0.7, duration: 0.3 },
+              }}
+            >
+              <motion.div
+                id="MobileNavigation"
+                className={`${show ? "" : "hidden"} sm:hidden mt-4 mx-auto`}
+                initial="closed"
+                animate="open"
+                exit="closed"
+                variants={sideVariants}
               >
-                Home
-              </a>
-            </Link>
-            <Link href="/projects">
-              <a
-                onClick={() => setshow(!show)}
-                className="text-2xl font-normal leading-6 text-white "
-              >
-                Projects
-              </a>
-            </Link>
-            <Link href="/skills">
-              <a
-                onClick={() => setshow(!show)}
-                className="text-2xl font-normal leading-6 text-white "
-              >
-                Skills
-              </a>
-            </Link>
-            <Link href="/contact">
-              <a
-                onClick={() => setshow(!show)}
-                className="text-2xl font-normal leading-6 text-white "
-              >
-                Contact
-              </a>
-            </Link>
-          </div>
-        </div>
+                <div className="flex flex-row items-center space-x-4">
+                  {links.map(({ name, to, id }) => (
+                    <motion.a
+                      key={id}
+                      href={to}
+                      whileHover={{ scale: 1.1 }}
+                      variants={itemVariants}
+                      className="text-2xl font-bold leading-6 text-white"
+                    >
+                      {name}
+                    </motion.a>
+                  ))}
+                </div>
+              </motion.div>
+            </motion.aside>
+          )}
+        </AnimatePresence>
       </nav>
     </div>
   );
