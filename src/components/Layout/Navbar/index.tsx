@@ -18,13 +18,13 @@ const itemVariants = {
 const sideVariants = {
   closed: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.1,
       staggerDirection: -1,
     },
   },
   open: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.1,
       staggerDirection: 1,
     },
   },
@@ -127,7 +127,6 @@ const Navbar = () => {
             }}
             exit={{
               width: 0,
-              transition: { delay: 0.7, duration: 0.3 },
             }}
             className="mx-auto flex justify-center"
           >
