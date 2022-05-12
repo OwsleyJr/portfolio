@@ -4,7 +4,7 @@ import brainImg from "../../assets/brain.png";
 
 const Skills: React.FC = () => {
   return (
-    <div className="container flex flex-col items-center py-12 mx-auto sm:py-24">
+    <div className="container flex flex-col items-center pt-10 mx-auto sm:py-24">
       <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 lg:flex md:mt-20">
         <div className="flex flex-row">
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">

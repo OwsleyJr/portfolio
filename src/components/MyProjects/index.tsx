@@ -4,7 +4,7 @@ import projectsImg from "../../assets/projects.png";
 
 const MyProjects: React.FC = () => {
   return (
-    <div className="container flex flex-col items-center mx-auto pt-14 sm:py-24">
+    <div className="container flex flex-col items-center mx-auto pt-10 sm:py-24">
       <div className="flex-col items-start justify-center w-11/12 sm:flex sm:mt-20">
         <div className="flex flex-row">
           <div className="relative w-16 h-16 sm:w-20 sm:h-20">
@@ -17,7 +17,7 @@ const MyProjects: React.FC = () => {
         <div>
           <div className="container mx-auto py-7 md:mt-2">
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-              <div className="transition duration-300 ease-in-out delay-150 bg-contain bg-os-image hover:-translate-y-1 hover:scale-105">
+              <div className="bg-contain bg-os-image">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-purple-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -26,7 +26,7 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-purple-500 hover:text-purple-500"
                     >
-                      <h4 className="z-40 mb-3 text-3xl font-extrabold text-purple-500">
+                      <h4 className="z-40 mb-3 text-3xl font-extrabold text-purple-500 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-102">
                         Overseerr
                       </h4>
                     </a>
@@ -44,7 +44,7 @@ const MyProjects: React.FC = () => {
                       <p className="font-bold cursor-default text-md">
                         August 16, 2020
                       </p>
-                      <div className="flex items-center justify-center w-8 h-8 text-gray-800 bg-gray-100 rounded-full">
+                      <div className="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105">
                         <a
                           href="https://github.com/sct/overseerr"
                           target="_blank"
@@ -64,7 +64,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover bg-sd-image hover:-translate-y-1 hover:scale-105">
+              <div className="bg-cover bg-sd-image">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-teal-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -73,7 +73,7 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-teal-500 hover:text-teal-500"
                     >
-                      <h4 className="mb-3 text-3xl font-extrabold text-teal-500">
+                      <h4 className="mb-3 text-3xl font-extrabold text-teal-500 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-102">
                         Sweatdeck
                       </h4>
                     </a>
@@ -91,7 +91,7 @@ const MyProjects: React.FC = () => {
                       <p className="font-bold cursor-default text-md">
                         January 27, 2022
                       </p>
-                      <div className="flex items-center justify-center w-8 h-8 text-gray-800 bg-gray-100 rounded-full">
+                      <div className="flex items-center justify-center w-8 h-8 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/Charmander-Cluster/sweatdeck"
                           target="_blank"
@@ -111,7 +111,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover rounded-lg bg-gs-image hover:-translate-y-1 hover:scale-105">
+              <div className="bg-cover rounded-lg bg-gs-image">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-amber-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -120,7 +120,7 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-amber-500 hover:text-amber-500"
                     >
-                      <h4 className="mb-3 text-3xl font-extrabold text-amber-500">
+                      <h4 className="mb-3 text-3xl font-extrabold text-amber-500 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-102">
                         Graceshopper
                       </h4>
                     </a>
@@ -138,7 +138,7 @@ const MyProjects: React.FC = () => {
                       <p className="font-bold cursor-default text-md">
                         January 19, 2022
                       </p>
-                      <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
+                      <div className="flex items-center justify-center w-8 h-8 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/Prime-Directive-Detectives/GraceShopper"
                           target="_blank"
@@ -158,7 +158,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-cover bg-hu-image hover:-translate-y-1 hover:scale-105">
+              <div className="bg-cover bg-hu-image">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-cyan-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -167,7 +167,7 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-cyan-500 hover:text-cyan-500"
                     >
-                      <h4 className="mb-3 text-3xl font-extrabold text-cyan-500">
+                      <h4 className="mb-3 text-3xl font-extrabold text-cyan-500 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-102">
                         Home-UI
                       </h4>
                     </a>
@@ -185,7 +185,7 @@ const MyProjects: React.FC = () => {
                       <p className="font-bold cursor-default text-md">
                         January 25, 2022
                       </p>
-                      <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
+                      <div className="flex items-center justify-center w-8 h-8 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/OwsleyJr/Home-UI"
                           target="_blank"
@@ -205,7 +205,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="transition duration-300 ease-in-out delay-150 bg-center bg-pf-image hover:-translate-y-1 hover:scale-105">
+              <div className="bg-center bg-pf-image">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-blue-500 rounded-lg shadow-lg backdrop-blur-sm backdrop-brightness-50 shadow-black">
                   <div>
                     <a
@@ -214,7 +214,7 @@ const MyProjects: React.FC = () => {
                       rel="noreferrer"
                       className="text-blue-500 hover:text-blue-500"
                     >
-                      <h4 className="mb-3 text-3xl font-extrabold text-blue-500">
+                      <h4 className="mb-3 text-3xl font-extrabold text-blue-500 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-102">
                         Portfolio
                       </h4>
                     </a>
@@ -232,7 +232,7 @@ const MyProjects: React.FC = () => {
                       <p className="font-bold cursor-default text-md">
                         February 15, 2022
                       </p>
-                      <div className="flex items-center justify-center w-8 h-8 text-white bg-gray-100 rounded-full">
+                      <div className="flex items-center justify-center w-8 h-8 transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 bg-gray-100 rounded-full">
                         <a
                           href="https://github.com/OwsleyJr/portfolio"
                           target="_blank"
