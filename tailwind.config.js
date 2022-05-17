@@ -9,6 +9,7 @@ module.exports = {
         'hu-image': "url('../assets/homeui.png')",
         'sd-image': "url('../assets/sweatdeck.png')",
         'pf-image': "url('../assets/portfolio.png')",
+        'js-image': "url('../assets/jsonimg.png')",
       },
     },
   },
