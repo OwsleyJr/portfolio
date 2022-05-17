@@ -125,9 +125,9 @@ const MyProjects: React.FC = () => {
                       </h4>
                     </a>
                     <p className="font-bold text-gray-100 cursor-default sm:text-lg">
-                      A JSON Parsing app that I built that allows you to input
-                      custom JSON and provides you with beautiful responsive
-                      cards.
+                      A JSON Parsing app I built that provides you with
+                      beautiful responsive cards and allows you to input custom
+                      JSON data.
                     </p>
                     <p className="mt-2 font-bold text-gray-100 cursor-default sm:text-lg">
                       Tech stack: Javascript, React/NextJS, CSS, Styled
