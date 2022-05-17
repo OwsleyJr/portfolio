@@ -22,7 +22,7 @@ const About: React.FC = () => {
 
           <div>
             <Link href="/contact" passHref>
-              <button className="px-6 py-4 mt-6 text-lg leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-4 md:py-4 lg:py-4 xl:py-5 sm:mt-9 sm:text-4xl focus:outline-none shadow-black">
+              <button className="px-6 py-4 mt-6 text-lg transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 leading-none text-white bg-teal-600 rounded-md shadow-md cursor-pointer sm:py-4 md:py-4 lg:py-4 xl:py-5 sm:mt-9 sm:text-4xl focus:outline-none shadow-black">
                 Contact me!
               </button>
             </Link>
