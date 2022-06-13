@@ -15,8 +15,18 @@ const About: React.FC = () => {
             </div>
           </div>
           <div>
-            <p className="mt-1 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl md:leading-10">
+            <p className="mt-2 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl md:leading-10">
               I am a Software Engineer who lives and works in South Florida.
+            </p>
+          </div>
+
+          <div>
+            <p className="mt-4 text-xl font-black leading-7 text-teal-500 cursor-default sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl md:leading-10">
+              I work on an open-source project called{" "}
+              <Link href="https://github.com/sct/overseerr">
+                <a className="text-white hover:text-white">Overseerr</a>
+              </Link>{" "}
+              in my free time.
             </p>
           </div>
 
