@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-white bg-slate-800;
+  @apply text-white bg-[url('../assets/background.jpg')];
 }
 
 a {
