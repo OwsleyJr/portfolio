@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import emailImg from "../../assets/email.png";
 import linkedinImg from "../../assets/linkedin.png";
@@ -23,7 +22,7 @@ const Contact: React.FC = () => {
               <Image src={emailImg} alt="emailImage" />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
-              <p className="mt-3 ml-2 text-3xl font-black leading-7 text-center text-teal-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
+              <p className="mt-3 ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
                 Email
               </p>
             </a>
@@ -37,7 +36,7 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="mt-3 ml-2 text-3xl font-black leading-7 text-center text-teal-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
+              <p className="mt-3 ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
                 Github
               </p>
             </a>
@@ -51,7 +50,7 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="mt-3 ml-2 text-3xl font-black leading-7 text-center text-teal-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
+              <p className="mt-3 ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-0 md:leading-10">
                 LinkedIn
               </p>
             </a>

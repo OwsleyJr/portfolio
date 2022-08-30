@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const variants = {
@@ -7,7 +6,11 @@ const variants = {
   exit: { opacity: 0, x: 0, y: -100 },
 };
 
-const Layout: React.FC = ({ children }) => {
+type Props = {
+  children?: React.ReactNode;
+};
+
+const Layout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <motion.main

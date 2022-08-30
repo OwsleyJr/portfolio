@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import projectsImg from "../../assets/projects.png";
 
@@ -17,7 +16,7 @@ const MyProjects: React.FC = () => {
         <div>
           <div className="container mx-auto py-7 md:mt-2">
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-              <div className="bg-contain bg-os-image">
+              <div className="bg-contain bg-os-image rounded-lg">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-purple-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -64,7 +63,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-cover bg-sd-image">
+              <div className="bg-cover bg-sd-image rounded-lg">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-teal-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -111,7 +110,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-contain bg-js-image">
+              <div className="bg-contain bg-js-image rounded-lg">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-red-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -159,7 +158,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-cover rounded-lg bg-gs-image">
+              <div className="bg-cover rounded-lg bg-gs-image rounded-lg">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-amber-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -206,7 +205,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-cover bg-hu-image">
+              <div className="bg-cover bg-hu-image rounded-lg">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-cyan-500 rounded-lg shadow-lg backdrop-brightness-50 backdrop-blur-sm shadow-black">
                   <div>
                     <a
@@ -253,7 +252,7 @@ const MyProjects: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-center bg-pf-image">
+              <div className="bg-center bg-pf-image rounded-lg">
                 <div className="flex flex-col justify-between w-full h-full px-4 py-5 mb-6 border-2 border-blue-500 rounded-lg shadow-lg backdrop-blur-sm backdrop-brightness-50 shadow-black">
                   <div>
                     <a

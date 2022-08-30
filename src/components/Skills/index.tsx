@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import brainImg from "../../assets/brain.png";
 
@@ -6,7 +5,7 @@ const Skills: React.FC = () => {
   return (
     <div className="container flex flex-col items-center pt-10 mx-auto sm:py-24">
       <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 lg:flex md:mt-20">
-        <div className="flex flex-row">
+        <div className="flex flex-row -ml-4">
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={brainImg} alt="brainImage" layout="fill" />
           </div>
@@ -14,7 +13,7 @@ const Skills: React.FC = () => {
             Skills
           </h1>
         </div>
-        <h1 className="mt-4 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
+        <h1 className="mt-4 text-3xl font-black leading-7 text-cyan-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
           Languages/Frameworks
         </h1>
 
@@ -87,7 +86,7 @@ const Skills: React.FC = () => {
             <i className="devicon-sequelize-plain colored"></i>
           </a>
         </div>
-        <h1 className="mt-5 text-3xl font-black leading-7 text-teal-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:leading-10">
+        <h1 className="mt-5 text-3xl font-black leading-7 text-cyan-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:leading-10">
           Cloud Technology
         </h1>
         <div className="flex flex-row mt-2 space-x-5">

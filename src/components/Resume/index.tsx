@@ -1,5 +1,3 @@
-import React from "react";
-
 const Resume: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto max-w-7xl">
@@ -40,7 +38,7 @@ const Resume: React.FC = () => {
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">Fullstack Academy</span>
-                <span className="teal-badge">Software Engineer</span>
+                <span className="cyan-badge">Software Engineer</span>
               </span>
             </div>
             <div className="ml-4 prose">
@@ -67,7 +65,7 @@ const Resume: React.FC = () => {
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">Arlene Segal Designs</span>
-                <span className="teal-badge">IT Technician</span>
+                <span className="cyan-badge">IT Technician</span>
               </span>
             </div>
             <div className="ml-4 prose">
@@ -103,7 +101,7 @@ const Resume: React.FC = () => {
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">Technic</span>
-                <span className="teal-badge">Support Manager</span>
+                <span className="cyan-badge">Support Manager</span>
               </span>
             </div>
             <div className="ml-4 prose">
@@ -137,7 +135,7 @@ const Resume: React.FC = () => {
                   href="https://github.com/Charmander-Cluster/sweatdeck"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-teal-500"
+                  className="text-cyan-500"
                 >
                   Sweatdeck
                 </a>{" "}
@@ -150,7 +148,7 @@ const Resume: React.FC = () => {
                   href="https://github.com/sct/overseerr"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-teal-500"
+                  className="text-cyan-500"
                 >
                   Overseerr
                 </a>{" "}
@@ -162,7 +160,7 @@ const Resume: React.FC = () => {
                   href="https://github.com/OwsleyJr/home-ui"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-teal-500"
+                  className="text-cyan-500"
                 >
                   Home-UI
                 </a>{" "}
@@ -176,7 +174,7 @@ const Resume: React.FC = () => {
                 href="https://github.com/OwsleyJr"
                 target="_blank"
                 rel="noreferrer"
-                className="text-teal-500"
+                className="text-cyan-500"
               >
                 GitHub profile
               </a>

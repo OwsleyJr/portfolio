@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -37,23 +37,23 @@ const Navbar = () => {
     <div className="h-14 z-40 flex flex-col">
       <div className="flex flex-row justify-between pt-3">
         <div className="pl-5">
-          <h1 className="text-2xl font-normal leading-6 text-teal-500 cursor-default">
+          <h1 className="text-2xl font-normal leading-6 bg-gradient-to-r from-cyan-500 to-blue-400 bg-clip-text text-transparent cursor-default">
             z3hn
           </h1>
         </div>
 
         <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end pr-5">
           <Link href="/" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white ">Home</a>
+            <a className="text-2xl font-bold leading-6 text-white">Home</a>
           </Link>
           <Link href="/projects" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white ">Projects</a>
+            <a className="text-2xl font-bold leading-6 text-white">Projects</a>
           </Link>
           <Link href="/skills" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white ">Skills</a>
+            <a className="text-2xl font-bold leading-6 text-white">Skills</a>
           </Link>
           <Link href="/contact" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white ">Contact</a>
+            <a className="text-2xl font-bold leading-6 text-white">Contact</a>
           </Link>
         </div>
         <div
