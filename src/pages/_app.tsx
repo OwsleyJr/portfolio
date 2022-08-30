@@ -2,7 +2,6 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/globals.css";
 import { AnimatePresence } from "framer-motion";
-import Navbar from "../components/Layout/Navbar";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   const url = `http://z3hn.dev${router.route}`;
@@ -30,7 +29,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         exitBeforeEnter
         onExitComplete={() => window.scrollTo(0, 0)}
       >
-        <Navbar />
         <Component {...pageProps} canonical={url} key={url} />
       </AnimatePresence>
     </>

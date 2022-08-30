@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Navbar from "./Navbar";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -12,7 +13,7 @@ type Props = {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <>
+    <div className="flex flex-col h-screen min-w-0 bg-fs-image bg-contain">
       <motion.main
         initial="hidden"
         animate="enter"
@@ -20,9 +21,10 @@ const Layout: React.FC<Props> = ({ children }) => {
         variants={variants}
         transition={{ type: "linear" }}
       >
+        <Navbar />
         {children}
       </motion.main>
-    </>
+    </div>
   );
 };
 

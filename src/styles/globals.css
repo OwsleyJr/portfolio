@@ -2,26 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply text-white bg-[url('../assets/background.jpg')];
+@layer base {
+  body {
+    @apply text-white bg-[#11212c];
+  }
 }
 
-a {
-  @apply text-cyan-500 transition duration-300 hover:underline hover:text-cyan-400;
+@layer components {
+  a {
+    @apply text-cyan-500 transition duration-300 hover:underline hover:text-cyan-400;
+  }
+
+  .fancy-link {
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-cyan-500 to-cyan-300 hover:from-cyan-600 hover:to-cyan-200;
+  }
+
+  .info-block h3 {
+    @apply text-xl font-bold text-gray-100;
+  }
+
+  .info-block p {
+    @apply my-4 text-gray-300;
+  }
+
+  .cyan-badge {
+    @apply inline-flex px-2 mt-1 text-xs font-semibold leading-5 text-red-100 bg-cyan-600 rounded-full cursor-default;
+  }
 }
 
-.fancy-link {
-  @apply text-transparent bg-clip-text bg-gradient-to-br from-cyan-500 to-cyan-300 hover:from-cyan-600 hover:to-cyan-200;
-}
-
-.info-block h3 {
-  @apply text-xl font-bold text-gray-100;
-}
-
-.info-block p {
-  @apply my-4 text-gray-300;
-}
-
-.cyan-badge {
-  @apply inline-flex px-2 mt-1 text-xs font-semibold leading-5 text-red-100 bg-cyan-600 rounded-full cursor-default;
+@layer utilities {
+  @media all and (display-mode: browser) {
+    .pwa-only {
+      @apply hidden;
+    }
+  }
 }
