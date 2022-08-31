@@ -1,5 +1,5 @@
 import Image from "next/image";
-import projectsImg from "../../assets/projects.png";
+import projectsImg from "../../assets/chest.png";
 
 const MyProjects: React.FC = () => {
   return (
