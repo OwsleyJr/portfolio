@@ -132,6 +132,18 @@ const Resume: React.FC = () => {
             <ul className="ml-4 text-gray-200">
               <li>
                 <a
+                  href="https://github.com/sct/overseerr"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-cyan-500"
+                >
+                  Overseerr
+                </a>{" "}
+                - Request management and media discovery tool for the Plex
+                ecosystem
+              </li>
+              <li>
+                <a
                   href="https://github.com/Charmander-Cluster/sweatdeck"
                   target="_blank"
                   rel="noreferrer"
@@ -145,27 +157,15 @@ const Resume: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sct/overseerr"
+                  href="https://github.com/OwsleyJr/json-parser-app"
                   target="_blank"
                   rel="noreferrer"
                   className="text-cyan-500"
                 >
-                  Overseerr
+                  JSON Parser
                 </a>{" "}
-                - Request management and media discovery tool for the Plex
-                ecosystem
-              </li>
-              <li>
-                <a
-                  href="https://github.com/OwsleyJr/home-ui"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-cyan-500"
-                >
-                  Home-UI
-                </a>{" "}
-                - Home-UI is a custom built Home assistant frontend tailored to
-                your specific UI and home automation needs.
+                - A JSON Parsing app I built that provides you with beautiful
+                responsive cards and allows you to input custom JSON data.
               </li>
             </ul>
             <p className="text-gray-200">
