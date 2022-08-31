@@ -16,13 +16,13 @@ const Contact: React.FC = () => {
             Contact
           </h1>
         </div>
-        <div>
+        <div className="ml-1 sm:ml-3">
           <div className="flex items-center flex-row mt-4 ml-2 md:mt-6">
             <div className="flex text-white rounded-full w-12 h-9 sm:w-16 sm:h-12 relative">
               <Image src={emailImg} alt="emailImage" layout="fill" />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
-              <p className=" ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl  md:leading-10">
+              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl md:leading-10">
                 Email
               </p>
             </a>
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10">
+              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl md:leading-10">
                 Github
               </p>
             </a>
@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10">
+              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl md:leading-10">
                 LinkedIn
               </p>
             </a>
