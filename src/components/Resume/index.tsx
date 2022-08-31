@@ -22,8 +22,8 @@ const Resume: React.FC = () => {
           <div className="mt-6 info-block">
             <h3>Languages/Frameworks</h3>
             <p>
-              JavaScript, React/NextJS, Redux, Node.js, Tailwind CSS, Express
-              Sequelize/SQL
+              JavaScript, React/NextJS, Redux, Node.js, Tailwind CSS, Express,
+              Sequelize/SQL, Cypress
             </p>
             <h3>Cloud Technology</h3>
             <p>Heroku, Netlify, Vercel, Firebase</p>
