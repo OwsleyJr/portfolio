@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
             Contact
           </h1>
         </div>
-        <div className="">
+        <div>
           <div className="flex items-center flex-row mt-4 ml-2 md:mt-6">
             <div className="flex text-white rounded-full w-12 h-9 sm:w-16 sm:h-12 relative">
               <Image src={emailImg} alt="emailImage" layout="fill" />
