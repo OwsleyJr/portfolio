@@ -8,11 +8,11 @@ const Contact: React.FC = () => {
   return (
     <div className="container flex flex-col items-center pt-10 mx-auto sm:py-24">
       <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 lg:flex md:mt-20">
-        <div className="flex flex-row">
+        <div className="flex flex-row items-center">
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={contactImg} alt="contactImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:mt-8 md:text-7xl md:leading-10">
+          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
             Contact
           </h1>
         </div>

@@ -5,11 +5,11 @@ const MyProjects: React.FC = () => {
   return (
     <div className="container flex flex-col items-center mx-auto pt-10 sm:py-24">
       <div className="flex-col items-start justify-center w-11/12 sm:flex sm:mt-20">
-        <div className="flex flex-row">
-          <div className="relative w-16 h-16 sm:w-20 sm:h-20">
+        <div className="flex flex-row items-center">
+          <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={projectsImg} alt="projectsImage" layout="fill" />
           </div>
-          <h1 className="mt-5 ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl lg:mt-5 md:leading-10">
+          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
             Projects
           </h1>
         </div>
