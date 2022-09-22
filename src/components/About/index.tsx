@@ -14,7 +14,7 @@ const About: React.FC = () => {
       </div>
 
       <div>
-        <p className="mt-4 text-xl font-black leading-7 text-cyan-500 cursor-default sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl md:leading-10">
+        <p className="mt-3 sm:mt-4 text-xl font-black leading-7 text-cyan-500 cursor-default sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl md:leading-10">
           I work on an open-source project called{" "}
           <Link href="https://github.com/sct/overseerr">
             <a className="text-white hover:text-white">Overseerr</a>

@@ -42,7 +42,7 @@ const Navbar = () => {
           </h1>
         </div>
 
-        <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end pr-5">
+        <div className="items-center bg-[#11212c] hidden space-x-3 sm:flex sm:justify-end sm:items-end pr-5">
           <Link href="/" scroll={false}>
             <a className="text-2xl font-bold leading-6 text-white">Home</a>
           </Link>
