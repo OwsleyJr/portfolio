@@ -6,8 +6,8 @@ import contactImg from "../../assets/chat.png";
 
 const Contact: React.FC = () => {
   return (
-    <div className="container flex flex-col items-center pt-10 mx-auto sm:py-24">
-      <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 lg:flex md:mt-20">
+    <div className="flex flex-col items-center pt-10 mx-auto sm:py-24">
+      <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 sm:flex">
         <div className="flex flex-row items-center">
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
             <Image src={contactImg} alt="contactImage" layout="fill" />
