@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col items-start justify-center min-h-full py-12 mx-auto w-11/12 sm:w-2/3 sm:py-24">
+    <div className="flex flex-col items-start justify-center pt-16 mx-auto w-11/12 sm:w-2/3 sm:pt-24">
       <h1 className="mt-1 text-4xl font-black bg-[#11212c] leading-10 text-center text-white cursor-default sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl sm:leading-11">
         Hi, I'm Brandon!
       </h1>
