@@ -3,7 +3,7 @@ import brainImg from "../../assets/sword.png";
 
 const Skills: React.FC = () => {
   return (
-    <div className="flex flex-col items-center pt-16 mx-auto">
+    <div className="flex flex-col items-center pt-10 sm:pt-16 mx-auto">
       <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 sm:flex">
         <div className="flex flex-row items-center">
           <div className="relative w-16 h-16 sm:w-24 sm:h-24">
