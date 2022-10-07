@@ -34,7 +34,41 @@ const Resume: React.FC = () => {
           <div className="mt-6 info-block">
             <div className="flex flex-col space-y-1">
               <span className="text-sm text-gray-200">
-                November 2021 to Present
+                September 2022 to Present
+              </span>
+              <span className="flex items-center text-2xl font-semibold text-gray-100">
+                <span className="mr-2">New York Life</span>
+                <span className="cyan-badge">Software Engineer</span>
+              </span>
+            </div>
+            <div className="ml-4 prose">
+              <ul className="text-gray-200">
+                <li>
+                  Designing efficient, scalable frontend code with React while
+                  ensuring a smooth user experience and consistency with the
+                  existing codebase
+                </li>
+                <li>
+                  Developing logical state management with React Hooks and Redux
+                  to ensure predictable application behavior, state
+                  immutability, and unidirectional data flow
+                </li>
+                <li>
+                  Utilizing MaterialUI to craft attractive, logical UI/UX across
+                  a next-generation digital platform.
+                </li>
+                <li>
+                  Collaborating with cross-functional teams, including
+                  third-party consultants, to support agile project management
+                  and Scrum processes
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-6 info-block">
+            <div className="flex flex-col space-y-1">
+              <span className="text-sm text-gray-200">
+                November 2021 to February 2022
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">Fullstack Academy</span>
@@ -70,10 +104,6 @@ const Resume: React.FC = () => {
             </div>
             <div className="ml-4 prose">
               <ul className="text-gray-200">
-                <li>
-                  Ensure usability and functionality across company devices in a
-                  fast and efficient manner
-                </li>
                 <li>
                   Complete proper software installation on all employee
                   computers, while safeguarding all security, backup, and
