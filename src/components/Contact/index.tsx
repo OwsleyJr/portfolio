@@ -14,6 +14,7 @@ const Contact: React.FC = () => {
               src={contactImg}
               alt="contactImage"
               className="w-16 h-16 sm:w-24 sm:h-24"
+              placeholder="blur"
             />
           </div>
           <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
@@ -27,6 +28,7 @@ const Contact: React.FC = () => {
                 src={emailImg}
                 alt="emailImage"
                 className="h-9 sm:w-16 sm:h-12"
+                placeholder="blur"
               />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
@@ -41,6 +43,7 @@ const Contact: React.FC = () => {
                 src={githubImg}
                 alt="githubImage"
                 className="w-12 h-12 sm:w-16 sm:h-16"
+                placeholder="blur"
               />
             </div>
             <a
@@ -59,6 +62,7 @@ const Contact: React.FC = () => {
                 src={linkedinImg}
                 alt="linkedinImage"
                 className="w-12 h-12 sm:w-16 sm:h-16"
+                placeholder="blur"
               />
             </div>
             <a

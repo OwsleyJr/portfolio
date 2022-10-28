@@ -11,6 +11,7 @@ const Skills: React.FC = () => {
               src={swordImg}
               alt="swordImage"
               className="w-16 h-16 sm:w-24 sm:h-24"
+              placeholder="blur"
             />
           </div>
           <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
