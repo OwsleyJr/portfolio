@@ -25,10 +25,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           data-rh="true"
         ></meta>
       </Head>
-      <AnimatePresence
-        exitBeforeEnter
-        onExitComplete={() => window.scrollTo(0, 0)}
-      >
+      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
         <Component {...pageProps} canonical={url} key={url} />
       </AnimatePresence>
     </>
