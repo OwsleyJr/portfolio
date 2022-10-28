@@ -9,8 +9,12 @@ const Contact: React.FC = () => {
     <div className="flex flex-col items-center pt-10 mx-auto sm:pt-16">
       <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 sm:flex">
         <div className="flex flex-row items-center">
-          <div className="relative w-16 h-16 sm:w-24 sm:h-24">
-            <Image src={contactImg} alt="contactImage" layout="fill" />
+          <div className="relative flex">
+            <Image
+              src={contactImg}
+              alt="contactImage"
+              className="w-16 h-16 sm:w-24 sm:h-24"
+            />
           </div>
           <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
             Contact
@@ -18,8 +22,12 @@ const Contact: React.FC = () => {
         </div>
         <div>
           <div className="flex items-center flex-row mt-4 ml-2 md:mt-6">
-            <div className="flex text-white rounded-full w-12 h-9 sm:w-16 sm:h-12 relative">
-              <Image src={emailImg} alt="emailImage" layout="fill" />
+            <div className="flex text-white relative">
+              <Image
+                src={emailImg}
+                alt="emailImage"
+                className="h-9 sm:w-16 sm:h-12"
+              />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
               <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl md:leading-10">
@@ -28,8 +36,12 @@ const Contact: React.FC = () => {
             </a>
           </div>
           <div className="flex items-center flex-row mt-3 ml-2 md:mt-4">
-            <div className="flex text-white rounded-full w-12 h-12 sm:w-16 sm:h-16 relative">
-              <Image src={githubImg} alt="githubImage" layout="fill" />
+            <div className="flex text-white relative">
+              <Image
+                src={githubImg}
+                alt="githubImage"
+                className="w-12 h-12 sm:w-16 sm:h-16"
+              />
             </div>
             <a
               href="https://github.com/OwsleyJr"
@@ -42,8 +54,12 @@ const Contact: React.FC = () => {
             </a>
           </div>
           <div className="flex items-center flex-row mt-3 ml-2 md:mt-4">
-            <div className="flex text-white rounded-full w-12 h-12 sm:w-16 sm:h-16 relative">
-              <Image src={linkedinImg} alt="linkedinImage" layout="fill" />
+            <div className="flex text-white relative">
+              <Image
+                src={linkedinImg}
+                alt="linkedinImage"
+                className="w-12 h-12 sm:w-16 sm:h-16"
+              />
             </div>
             <a
               href="https://www.linkedin.com/in/cohbrandon/"

@@ -43,17 +43,29 @@ const Navbar = () => {
         </div>
 
         <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end pr-5">
-          <Link href="/" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white">Home</a>
+          <Link
+            href="/"
+            scroll={false}
+            className="text-2xl font-bold leading-6 text-white">
+            Home
           </Link>
-          <Link href="/projects" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white">Projects</a>
+          <Link
+            href="/projects"
+            scroll={false}
+            className="text-2xl font-bold leading-6 text-white">
+            Projects
           </Link>
-          <Link href="/skills" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white">Skills</a>
+          <Link
+            href="/skills"
+            scroll={false}
+            className="text-2xl font-bold leading-6 text-white">
+            Skills
           </Link>
-          <Link href="/contact" scroll={false}>
-            <a className="text-2xl font-bold leading-6 text-white">Contact</a>
+          <Link
+            href="/contact"
+            scroll={false}
+            className="text-2xl font-bold leading-6 text-white">
+            Contact
           </Link>
         </div>
         <div

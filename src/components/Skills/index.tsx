@@ -1,13 +1,17 @@
 import Image from "next/image";
-import brainImg from "../../assets/sword.png";
+import swordImg from "../../assets/sword.png";
 
 const Skills: React.FC = () => {
   return (
     <div className="flex flex-col items-center pt-10 sm:pt-16 mx-auto">
       <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 sm:flex">
         <div className="flex flex-row items-center">
-          <div className="relative w-16 h-16 sm:w-24 sm:h-24">
-            <Image src={brainImg} alt="brainImage" layout="fill" />
+          <div className="relative">
+            <Image
+              src={swordImg}
+              alt="swordImage"
+              className="w-16 h-16 sm:w-24 sm:h-24"
+            />
           </div>
           <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
             Skills
