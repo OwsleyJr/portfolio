@@ -6,19 +6,17 @@ const Skills: React.FC = () => {
     <div className="flex flex-col items-center mx-auto pt-10 sm:pt-16">
       <div className="flex-col w-11/12 sm:w-auto">
         <div className="flex flex-row items-center">
-          <div className="relative">
-            <Image
-              src={swordImg}
-              alt="swordImage"
-              className="w-16 h-16 sm:w-24 sm:h-24"
-              placeholder="blur"
-            />
-          </div>
-          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl sm:leading-10">
+          <Image
+            src={swordImg}
+            alt="swordImage"
+            className="w-16 h-16 sm:w-24 sm:h-24"
+            placeholder="blur"
+          />
+          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl 2xl:mb-3 sm:leading-10">
             Skills
           </h1>
         </div>
-        <h1 className="mt-4 text-3xl font-black leading-7 text-cyan-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:mt-6 md:leading-10">
+        <h1 className="mt-4 text-3xl font-black leading-7 text-cyan-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl md:mt-6 md:leading-10">
           Languages/Frameworks
         </h1>
 
@@ -91,7 +89,7 @@ const Skills: React.FC = () => {
             <i className="devicon-sequelize-plain colored"></i>
           </a>
         </div>
-        <h1 className="mt-5 text-3xl font-black leading-7 text-cyan-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl md:leading-10">
+        <h1 className="mt-5 text-3xl font-black leading-7 text-cyan-500 cursor-default sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl md:leading-10">
           Cloud Technology
         </h1>
         <div className="flex flex-row mt-2 space-x-5">

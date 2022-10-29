@@ -9,15 +9,13 @@ const Contact: React.FC = () => {
     <div className="flex flex-col items-center mx-auto pt-10 sm:pt-16">
       <div className="flex-col w-11/12 sm:w-auto">
         <div className="flex flex-row items-center">
-          <div className="relative">
-            <Image
-              src={contactImg}
-              alt="contactImage"
-              className="w-16 h-16 sm:w-24 sm:h-24"
-              placeholder="blur"
-            />
-          </div>
-          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl sm:leading-10">
+          <Image
+            src={contactImg}
+            alt="contactImage"
+            className="w-16 h-16 sm:w-24 sm:h-24"
+            placeholder="blur"
+          />
+          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl 2xl:mb-3 sm:leading-10">
             Contact
           </h1>
         </div>
