@@ -3,8 +3,8 @@ import swordImg from "../../assets/sword.png";
 
 const Skills: React.FC = () => {
   return (
-    <div className="flex flex-col items-center pt-10 sm:pt-16 mx-auto">
-      <div className="flex-col items-start justify-center w-11/12 sm:w-2/3 sm:flex">
+    <div className="flex flex-col items-center mx-auto pt-10 sm:pt-16">
+      <div className="flex-col w-11/12 sm:w-auto">
         <div className="flex flex-row items-center">
           <div className="relative">
             <Image
@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
               placeholder="blur"
             />
           </div>
-          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default md:text-7xl md:leading-10">
+          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl sm:leading-10">
             Skills
           </h1>
         </div>
