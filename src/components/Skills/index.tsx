@@ -3,8 +3,8 @@ import swordImg from "../../assets/sword.png";
 
 const Skills: React.FC = () => {
   return (
-    <div className="flex flex-col items-center mx-auto pt-10 sm:pt-16">
-      <div className="flex-col w-11/12 sm:w-auto">
+    <div className="flex flex-col mx-auto max-w-7xl">
+      <div className="z-0 flex-1 px-4 pt-10 pb-24 md:px-6 md:py-20">
         <div className="flex flex-row items-center">
           <Image
             src={swordImg}
