@@ -4,7 +4,7 @@ import projectsImg from "../../assets/chest.png";
 const MyProjects: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto max-w-7xl">
-      <div className="z-0 flex-1 px-4 pt-10 pb-24 md:px-6 md:py-20">
+      <div className="z-0 flex-1 px-4 pt-10 md:px-6 md:py-20">
         <div className="flex flex-row items-center">
           <Image
             src={projectsImg}
