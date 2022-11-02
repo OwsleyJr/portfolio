@@ -13,7 +13,7 @@ type Props = {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen min-w-0 bg-fs-image bg-contain">
+    <div className="flex flex-col min-h-screen min-w-0">
       <motion.main
         initial="hidden"
         animate="enter"
