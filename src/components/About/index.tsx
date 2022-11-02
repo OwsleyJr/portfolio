@@ -4,8 +4,8 @@ import Link from "next/link";
 const About: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto max-w-7xl">
-      <div className="z-0 flex-1 px-4 pt-10 pb-24 md:px-6 md:py-20">
-        <div className="bg-[#11212c]">
+      <div className="z-0 flex-1 px-4 pt-10 pb-24 md:px-6 md:py-20 bg-[#11212c]">
+        <div>
           <h1 className="mt-1 text-7xl font-black items-start flex text-white cursor-default sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-9xl sm:leading-11">
             Hi, I'm Brandon!
           </h1>
