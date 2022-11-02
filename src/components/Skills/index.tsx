@@ -43,7 +43,10 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="hover:no-underline mt-2 text-5xl font-black leading-7 transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
-            <i className="devicon-nextjs-original colored"></i>
+            <i
+              className="devicon-nextjs-original colored"
+              placeholder="blur"
+            ></i>
           </a>
           <a
             href="https://redux.js.org/"

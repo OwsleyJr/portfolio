@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <div className="flex flex-col mx-auto max-w-7xl">
       <div className="z-0 flex-1 px-4 pt-10 pb-24 md:px-6 md:py-20">
         <div className="bg-[#11212c]">
-          <h1 className="mt-1 text-4xl font-black items-start flex leading-8 text-center text-white cursor-default sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-9xl sm:leading-11">
+          <h1 className="mt-1 text-7xl font-black items-start flex text-white cursor-default sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-9xl sm:leading-11">
             Hi, I'm Brandon!
           </h1>
           <div>
@@ -16,7 +16,7 @@ const About: React.FC = () => {
           </div>
 
           <div>
-            <p className="mt-3 sm:mt-2 text-xl font-black leading-6 text-cyan-500 cursor-default sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-6xl sm:leading-10">
+            <p className="mt-3 sm:mt-2 text-2xl font-black leading-6 text-cyan-500 cursor-default sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-6xl sm:leading-10">
               I work on an open-source project called{" "}
               <Link
                 href="https://github.com/sct/overseerr"
