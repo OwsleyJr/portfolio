@@ -2,4 +2,4 @@
 
 Hi, this is my portfolio where you can learn more about what I do!
 
-Built in NextJS.
+Built in NextJS. Hosted with Vercel.
