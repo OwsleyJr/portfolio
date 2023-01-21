@@ -46,20 +46,20 @@ const Resume: React.FC = () => {
                 <li>
                   Frontend-oriented full-stack software engineer that
                   specialized in crafting efficient and reusable frontend code
-                  using React, Redux, and MaterialUI
+                  using React, Redux, and MaterialUI.
                 </li>
                 <li>
                   Developed custom Javascript utility functions that were
-                  utilized throughout the app, streamlining development efforts
+                  utilized throughout the app, streamlining development efforts.
                 </li>
                 <li>
                   Regularly identified and resolved critical production bugs
-                  that were impacting existing services
+                  that were impacting existing services.
                 </li>
                 <li>
                   Responsible for building core platform features such as the
                   Client Switch, enabling agents to seamlessly switch clients
-                  on-demand
+                  on-demand.
                 </li>
               </ul>
             </div>
@@ -106,19 +106,19 @@ const Resume: React.FC = () => {
                 <li>
                   Complete proper software installation on all employee
                   computers, while safeguarding all security, backup, and
-                  network solutions
+                  network solutions.
                 </li>
                 <li>
                   Troubleshoot hardware and software issues, making sure
-                  performance was at 100%
+                  performance was at 100%.
                 </li>
                 <li>
                   Set up an entirely new user workspace, providing secure
-                  passwords and profiles in the company software systems
+                  passwords and profiles in the company software systems.
                 </li>
                 <li>
                   Implement, manage, and monitor devices across the network,
-                  backing up all essential data daily
+                  backing up all essential data daily.
                 </li>
               </ul>
             </div>
@@ -137,19 +137,19 @@ const Resume: React.FC = () => {
               <ul className="text-gray-200">
                 <li>
                   Developed and managed project schedules, including performing
-                  production tasks directly or with a team member
+                  production tasks directly or with a team member.
                 </li>
                 <li>
                   Identified and provided technical support for the use of any
-                  new website and modpack features
+                  new website and modpack features.
                 </li>
                 <li>
                   Frequently collaborated with team members to find solutions
-                  for improving the user experience
+                  for improving the user experience.
                 </li>
                 <li>
                   Effectively managed and maintained a quality discussion board
-                  by clearly communicating between users and team members
+                  by clearly communicating between users and team members.
                 </li>
               </ul>
             </div>
@@ -169,7 +169,7 @@ const Resume: React.FC = () => {
                   Overseerr
                 </a>{" "}
                 - Request management and media discovery tool for the Plex
-                ecosystem
+                ecosystem.
               </li>
               <li>
                 <a
