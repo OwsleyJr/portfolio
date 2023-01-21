@@ -32,7 +32,7 @@
   }
 
   .cyan-badge {
-    @apply inline-flex px-2 mt-1 text-xs font-semibold leading-5 text-red-100 bg-cyan-600 rounded-full cursor-default;
+    @apply inline-flex px-2 mt-1 text-xs font-semibold leading-5 bg-cyan-600 rounded-full cursor-default;
   }
 }
 
