@@ -20,7 +20,7 @@ const About: React.FC = () => {
               I work on an open-source project called{" "}
               <Link
                 href="https://github.com/sct/overseerr"
-                className="text-white hover:text-purple-500"
+                className="text-white hover:text-white"
               >
                 Overseerr
               </Link>{" "}
