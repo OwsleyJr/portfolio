@@ -26,7 +26,7 @@ const Resume: React.FC = () => {
               Sequelize/SQL, Cypress
             </p>
             <h3>Cloud Technology</h3>
-            <p>Heroku, Netlify, Vercel, Firebase</p>
+            <p>Heroku, Netlify, Vercel, Firebase, AWS</p>
           </div>
         </div>
         <div className="mt-12">
