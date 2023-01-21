@@ -44,23 +44,22 @@ const Resume: React.FC = () => {
             <div className="ml-4 prose">
               <ul className="text-gray-200">
                 <li>
-                  Designing efficient, scalable frontend code with React while
-                  ensuring a smooth user experience and consistency with the
-                  existing codebase
+                  Frontend-oriented full-stack software engineer that
+                  specialized in crafting efficient and reusable frontend code
+                  using React, Redux, and MaterialUI
                 </li>
                 <li>
-                  Developing logical state management with React Hooks and Redux
-                  to ensure predictable application behavior, state
-                  immutability, and unidirectional data flow
+                  Developed custom Javascript utility functions that were
+                  utilized throughout the app, streamlining development efforts
                 </li>
                 <li>
-                  Utilizing MaterialUI to craft attractive, logical UI/UX across
-                  a next-generation digital platform.
+                  Regularly identified and resolved critical production bugs
+                  that were impacting existing services
                 </li>
                 <li>
-                  Collaborating with cross-functional teams, including
-                  third-party consultants, to support agile project management
-                  and Scrum processes
+                  Responsible for building core platform features such as the
+                  Client Switch, enabling agents to seamlessly switch clients
+                  on-demand
                 </li>
               </ul>
             </div>
