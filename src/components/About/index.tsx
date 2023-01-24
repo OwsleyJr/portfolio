@@ -30,7 +30,7 @@ const About: React.FC = () => {
         </div>
         <div>
           <Link href="/contact" passHref legacyBehavior>
-            <button className="px-6 py-4 mt-6 text-lg transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 text-white bg-cyan-600 rounded-md shadow-md cursor-pointer sm:py-4 2xl:py-5 sm:mt-9 sm:text-4xl shadow-black">
+            <button className="px-5 sm:px-6 py-3 mt-6 text-lg transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 text-white bg-cyan-600 rounded-md shadow-md cursor-pointer sm:py-4 2xl:py-5 sm:mt-9 sm:text-4xl shadow-black">
               Contact me!
             </button>
           </Link>
