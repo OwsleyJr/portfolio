@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import Skills from "../../components/Skills";
+import Skills from "../../components/skills";
 
 const SkillsPage: NextPage = () => {
   return <Skills />;

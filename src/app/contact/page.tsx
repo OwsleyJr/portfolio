@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import Contact from "../../components/Contact";
+import Contact from "../../components/contact";
 
 const ContactPage: NextPage = () => {
   return <Contact />;

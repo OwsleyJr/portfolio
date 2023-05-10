@@ -1,6 +1,6 @@
 import { NextPage } from "next";
-import Resume from "../../components/Resume";
-import Layout from "../../components/Layout";
+import Resume from "../../components/resume";
+import Layout from "../../components/layout";
 
 const ResumePage: NextPage = () => {
   return <Resume />;
