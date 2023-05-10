@@ -1,5 +1,7 @@
+"use client";
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
+import { AnimatePresence } from "framer-motion";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -14,16 +16,18 @@ type Props = {
 const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen min-w-0">
-      <motion.main
-        initial="hidden"
-        animate="enter"
-        exit="exit"
-        variants={variants}
-        transition={{ type: "linear" }}
-      >
-        <Navbar />
-        {children}
-      </motion.main>
+      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
+        <motion.main
+          initial="hidden"
+          animate="enter"
+          exit="exit"
+          variants={variants}
+          transition={{ type: "linear" }}
+        >
+          <Navbar />
+          <body>{children}</body>
+        </motion.main>
+      </AnimatePresence>
     </div>
   );
 };
