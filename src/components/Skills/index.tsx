@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
             href="https://www.javascript.com/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-javascript-plain colored"></i>
           </a>
@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
             href="https://reactjs.org/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-react-original colored"></i>
           </a>
@@ -42,7 +42,7 @@ const Skills: React.FC = () => {
             href="https://nextjs.org/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i
               className="devicon-nextjs-original colored"
@@ -53,7 +53,7 @@ const Skills: React.FC = () => {
             href="https://redux.js.org/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-redux-original colored"></i>
           </a>
@@ -63,7 +63,7 @@ const Skills: React.FC = () => {
             href="https://nodejs.org/en/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-nodejs-plain colored"></i>
           </a>
@@ -71,7 +71,7 @@ const Skills: React.FC = () => {
             href="https://tailwindcss.com/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-tailwindcss-plain colored"></i>
           </a>
@@ -79,7 +79,7 @@ const Skills: React.FC = () => {
             href="https://expressjs.com/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-inherit text-inherit mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="text-inherit hover:no-underline mt-2 text-5xl transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-express-original"></i>
           </a>
@@ -87,7 +87,7 @@ const Skills: React.FC = () => {
             href="https://sequelize.org/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="text-5xl hover:no-underline mt-2 font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
           >
             <i className="devicon-sequelize-plain colored"></i>
           </a>
@@ -100,31 +100,35 @@ const Skills: React.FC = () => {
             href="https://www.heroku.com/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="text-5xl hover:no-underline font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10"
           >
             <i className="devicon-heroku-plain colored"></i>
           </a>
-          <a
-            href="https://www.netlify.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="mt-2 transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
-          >
-            <Image src={netlifySVG} alt="Netlify icon" width={72} height={72} />
-          </a>
-          <a
-            href="https://vercel.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="mt-2 transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
-          >
-            <Image src={vercelSVG} alt="Vercel icon" width={72} height={72} />
-          </a>
+          <div className="h-12 w-12 sm:h-[72px] sm:w-[72px] relative transition duration-300 ease-in-out scale-100 hover:scale-105">
+            <a
+              href="https://www.netlify.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-2 transition duration-300 ease-in-out scale-100 hover:scale-105"
+            >
+              <Image src={netlifySVG} alt="Netlify icon" fill />
+            </a>
+          </div>
+          <div className="h-12 w-12 sm:h-[72px] sm:w-[72px] relative transition duration-300 ease-in-out scale-100 hover:scale-105">
+            <a
+              href="https://vercel.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-2 transition duration-300 ease-in-out scale-100 hover:scale-105"
+            >
+              <Image src={vercelSVG} alt="Vercel icon" fill />
+            </a>
+          </div>
           <a
             href="https://firebase.google.com/"
             target="_blank"
             rel="noreferrer"
-            className="mt-2 text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 sm:text-5xl md:text-7xl lg:text-8xl md:leading-10 md:mt-4"
+            className="text-5xl hover:no-underline font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl lg:text-8xl md:leading-10"
           >
             <i className="devicon-firebase-plain colored"></i>
           </a>
