@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'os-image': "url('../assets/OSScreenshot.png')",
-        'gs-image': "url('../assets/graceshopper.png')",
-        'hu-image': "url('../assets/homeui.png')",
-        'sd-image': "url('../assets/sweatdeck.png')",
-        'pf-image': "url('../assets/portfolio.png')",
-        'js-image': "url('../assets/jsonimg.png')",
-        'fs-image': "url('../assets/background.jpg')",
+        'os-image': "url('../assets/images/OSScreenshot.png')",
+        'gs-image': "url('../assets/images/graceshopper.png')",
+        'hu-image': "url('../assets/images/homeui.png')",
+        'sd-image': "url('../assets/images/sweatdeck.png')",
+        'pf-image': "url('../assets/images/portfolio.png')",
+        'js-image': "url('../assets/images/jsonimg.png')",
+        'fs-image': "url('../assets/images/background.jpg')",
       },
     },
   },

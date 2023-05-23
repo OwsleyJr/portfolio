@@ -14,7 +14,6 @@ const About: React.FC = () => {
               I am a Software Engineer who lives and works from South Florida.
             </p>
           </div>
-
           <div>
             <p className="mt-3 sm:mt-2 text-2xl font-black leading-6 text-cyan-500 cursor-default sm:text-xl md:text-2xl lg:text-4xl xl:text-4xl 2xl:text-6xl sm:leading-10">
               I work on an open-source project called{" "}
