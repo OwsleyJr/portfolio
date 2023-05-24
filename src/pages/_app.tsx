@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           content="https://z3hn.dev"
           data-rh="true"
         ></meta>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
         <Component {...pageProps} canonical={url} key={url} />
