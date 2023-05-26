@@ -26,7 +26,6 @@ const Contact: React.FC = () => {
                 src={emailImg}
                 alt="emailImage"
                 className="h-9 w-12 sm:w-16 sm:h-12"
-                placeholder="blur"
               />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
