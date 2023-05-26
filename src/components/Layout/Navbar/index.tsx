@@ -97,7 +97,7 @@ const Navbar = () => {
           >
             <motion.div
               id="MobileNavigation"
-              className={`${show ? "" : "hidden"} sm:hidden mt-4 z-40`}
+              className="sm:hidden mt-4 z-40"
               initial="closed"
               animate="open"
               exit="closed"
