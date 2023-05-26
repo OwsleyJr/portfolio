@@ -78,7 +78,7 @@ const Skills: React.FC = () => {
             href="https://expressjs.com/"
             target="_blank"
             rel="noreferrer"
-            className="text-inherit hover:no-underline mt-2 text-5xl transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
+            className="text-inherit hover:no-underline hover:text-black mt-2 text-5xl transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
             <i className="devicon-express-original" />
           </a>
@@ -107,7 +107,7 @@ const Skills: React.FC = () => {
             href="https://aws.amazon.com/"
             target="_blank"
             rel="noreferrer"
-            className="text-5xl text-inherit hover:no-underline font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl"
+            className="text-5xl text-inherit hover:no-underline hover:text-orange-400 font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl"
           >
             <i className="devicon-amazonwebservices-original" />
           </a>
