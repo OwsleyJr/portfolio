@@ -1,6 +1,5 @@
 import Image from "next/image";
 import swordImg from "../../assets/images/sword.png";
-import netlifySVG from "../../assets/svgs/netlify.svg";
 import vercelSVG from "../../assets/svgs/vercel.svg";
 
 const Skills: React.FC = () => {
@@ -28,7 +27,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
-            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-javascript-plain colored" />
           </a>
           <a
             href="https://reactjs.org/"
@@ -36,7 +35,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
-            <i className="devicon-react-original colored"></i>
+            <i className="devicon-react-original colored" />
           </a>
           <a
             href="https://nextjs.org/"
@@ -55,7 +54,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
-            <i className="devicon-redux-original colored"></i>
+            <i className="devicon-redux-original colored" />
           </a>
         </div>
         <div className="flex flex-row mt-2 space-x-5 md:mt-0">
@@ -65,7 +64,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
-            <i className="devicon-nodejs-plain colored"></i>
+            <i className="devicon-nodejs-plain colored" />
           </a>
           <a
             href="https://tailwindcss.com/"
@@ -73,7 +72,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="mt-2 hover:no-underline text-5xl font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
-            <i className="devicon-tailwindcss-plain colored"></i>
+            <i className="devicon-tailwindcss-plain colored" />
           </a>
           <a
             href="https://expressjs.com/"
@@ -81,7 +80,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="text-inherit hover:no-underline mt-2 text-5xl transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl md:mt-4"
           >
-            <i className="devicon-express-original"></i>
+            <i className="devicon-express-original" />
           </a>
           <a
             href="https://sequelize.org/"
@@ -102,18 +101,16 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="text-5xl hover:no-underline font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl"
           >
-            <i className="devicon-heroku-plain colored"></i>
+            <i className="devicon-heroku-plain colored" />
           </a>
-          <div className="h-12 w-12 sm:h-[72px] sm:w-[72px] relative transition duration-300 ease-in-out scale-100 hover:scale-105">
-            <a
-              href="https://www.netlify.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-2 transition duration-300 ease-in-out scale-100 hover:scale-105"
-            >
-              <Image src={netlifySVG} alt="Netlify icon" fill />
-            </a>
-          </div>
+          <a
+            href="https://aws.amazon.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-5xl text-inherit hover:no-underline font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl"
+          >
+            <i className="devicon-amazonwebservices-original" />
+          </a>
           <div className="h-12 w-12 sm:h-[72px] sm:w-[72px] relative transition duration-300 ease-in-out scale-100 hover:scale-105">
             <a
               href="https://vercel.com/"
@@ -130,7 +127,7 @@ const Skills: React.FC = () => {
             rel="noreferrer"
             className="text-5xl hover:no-underline font-black transition duration-300 ease-in-out scale-100 hover:scale-105 md:text-7xl"
           >
-            <i className="devicon-firebase-plain colored"></i>
+            <i className="devicon-firebase-plain colored" />
           </a>
         </div>
       </div>
