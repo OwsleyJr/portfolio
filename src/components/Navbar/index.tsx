@@ -2,8 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import HamburgerSVG from "../../../assets/svgs/hamburger.svg";
-import XSVG from "../../../assets/svgs/x.svg";
+import HamburgerSVG from "../../assets/svgs/hamburger.svg";
+import XSVG from "../../assets/svgs/x.svg";
 import Image from "next/image";
 
 const links = [
