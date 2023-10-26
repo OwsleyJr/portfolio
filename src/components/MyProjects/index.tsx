@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import projectsImg from "../../assets/images/chest.png";
 import githubSVG from "../../assets/svgs/github.svg";

@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import swordImg from "../../assets/images/sword.png";
 import vercelSVG from "../../assets/svgs/vercel.svg";

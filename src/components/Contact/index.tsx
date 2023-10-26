@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import emailImg from "../../assets/images/email.png";
 import linkedinImg from "../../assets/images/linkedin.png";
