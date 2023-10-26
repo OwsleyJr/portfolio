@@ -13,13 +13,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/components/Layout/Navbar"
+    "src/components/layout/navbar",
+    ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }

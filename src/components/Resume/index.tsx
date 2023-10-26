@@ -1,3 +1,5 @@
+"use client";
+
 const Resume: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto max-w-7xl">

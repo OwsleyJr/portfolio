@@ -1,7 +1,6 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/globals.css";
-import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   const url = `http://z3hn.dev${router.route}`;
@@ -26,9 +25,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
-        <Component {...pageProps} canonical={url} key={url} />
-      </AnimatePresence>
+      <Component {...pageProps} canonical={url} key={url} />
     </>
   );
 }
