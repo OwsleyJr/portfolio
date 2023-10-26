@@ -2,7 +2,7 @@
 import { useRef, useContext } from "react";
 import { LayoutRouterContext } from "next/dist/shared/lib/app-router-context";
 import { Inter } from "next/font/google";
-import Navbar from "../components/layout/navbar";
+import Navbar from "../components/Navbar";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import "../styles/globals.css";
