@@ -2,6 +2,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
+import HamburgerSVG from "../../../assets/svgs/hamburger.svg";
+import XSVG from "../../../assets/svgs/x.svg";
+import Image from "next/image";
 
 const links = [
   { name: "Home", to: "/", id: 1 },
@@ -42,7 +45,6 @@ const Navbar = () => {
             z3hn
           </h1>
         </div>
-
         <div className="items-center hidden space-x-3 sm:flex sm:justify-end sm:items-end pr-5">
           <Link
             href="/"
@@ -78,61 +80,8 @@ const Navbar = () => {
           onClick={() => setshow(!show)}
           className={`focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 pr-5 sm:hidden cursor-pointer rounded-md`}
         >
-          <svg
-            className={`${show ? "hidden" : ""}`}
-            width={24}
-            height={24}
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              className="duration-150 transform "
-              d="M4 6H20"
-              stroke="#ffffff"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M4 12H20"
-              stroke="#ffffff"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              className="duration-150 transform"
-              d="M4 18H20"
-              stroke="#ffffff"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          <svg
-            className={`${show ? "block" : "hidden"}`}
-            width={24}
-            height={24}
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18 6L6 18"
-              stroke="#ffffff"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M6 6L18 18"
-              stroke="#ffffff"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+          {!show && <Image src={HamburgerSVG} alt="Hamburger icon" />}
+          {show && <Image src={XSVG} alt="X icon" />}
         </div>
       </div>
       <AnimatePresence>
@@ -149,7 +98,7 @@ const Navbar = () => {
           >
             <motion.div
               id="MobileNavigation"
-              className={`${show ? "" : "hidden"} sm:hidden mt-4 z-40`}
+              className="sm:hidden mt-4 z-40"
               initial="closed"
               animate="open"
               exit="closed"

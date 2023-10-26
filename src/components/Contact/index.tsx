@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import emailImg from "../../assets/email.png";
-import linkedinImg from "../../assets/linkedin.png";
-import githubImg from "../../assets/github.png";
-import contactImg from "../../assets/chat.png";
+import emailImg from "../../assets/images/email.png";
+import linkedinImg from "../../assets/images/linkedin.png";
+import githubImg from "../../assets/images/github.png";
+import contactImg from "../../assets/images/chat.png";
 
 const Contact: React.FC = () => {
   return (
@@ -27,7 +27,6 @@ const Contact: React.FC = () => {
                 src={emailImg}
                 alt="emailImage"
                 className="h-9 w-12 sm:w-16 sm:h-12"
-                placeholder="blur"
               />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
