@@ -1,6 +1,5 @@
 import { NextPage } from "next";
-import MyProjects from "../../components/myProjects";
-import Layout from "../../components/layout";
+import MyProjects from "../../components/MyProjects";
 
 const ProjectsPage: NextPage = () => {
   return <MyProjects />;

@@ -1,7 +1,6 @@
 "use client";
 import type { NextPage } from "next";
-import About from "../components/about";
-import Layout from "../components/layout";
+import About from "../components/About";
 
 const Home: NextPage = () => {
   return <About />;
