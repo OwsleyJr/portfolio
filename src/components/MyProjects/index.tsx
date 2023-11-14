@@ -15,7 +15,7 @@ const MyProjects: React.FC = () => {
             placeholder="blur"
             className="w-16 h-16 sm:w-24 sm:h-24"
           />
-          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl 2xl:mb-3 sm:leading-10">
+          <h1 className="ml-2 text-5xl font-black leading-7 text-center text-white cursor-default sm:text-7xl 2xl:text-8xl sm:leading-10">
             Projects
           </h1>
         </div>
