@@ -25,10 +25,13 @@ const Resume: React.FC = () => {
             <h3>Languages/Frameworks</h3>
             <p>
               JavaScript, React/NextJS, Redux, Node.js, Tailwind CSS, Express,
-              Sequelize/SQL, Cypress
+              Sequelize/SQL, Cypress, Prisma, React Native, Expo
             </p>
             <h3>Cloud Technology</h3>
-            <p>Heroku, Netlify, Vercel, Firebase, AWS</p>
+            <p>
+              Heroku, Netlify, Vercel, Firebase, AWS, Supabase, Sanity,
+              Storyblok, Clerk
+            </p>
           </div>
         </div>
         <div className="mt-12">
@@ -51,8 +54,9 @@ const Resume: React.FC = () => {
                   using React, Redux, and MaterialUI.
                 </li>
                 <li>
-                  Developed custom Javascript utility functions that were
-                  utilized throughout the app, streamlining development efforts.
+                  Led the successful delivery of a multi-phase project,
+                  overseeing all aspects of development from initial
+                  requirements gathering to deployment.
                 </li>
                 <li>
                   Regularly identified and resolved critical production bugs
