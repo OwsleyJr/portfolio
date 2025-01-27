@@ -24,8 +24,8 @@ const Resume: React.FC = () => {
           <div className="mt-6 info-block">
             <h3>Languages/Frameworks</h3>
             <p>
-              JavaScript, React/NextJS, Redux, Node.js, Tailwind CSS, Express,
-              Sequelize/SQL, Cypress, Prisma, React Native, Expo
+              JavaScript/Typescript, React/NextJS, Redux, Node.js, Tailwind CSS,
+              Express, Sequelize/SQL, Cypress, Prisma, React Native, Expo
             </p>
             <h3>Cloud Technology</h3>
             <p>
@@ -85,10 +85,13 @@ const Resume: React.FC = () => {
                 <li>
                   Fullstack Academy’s Full-Time Software Engineering Immersive
                   is a 17-week preparation course for software engineer roles at
-                  top-tier technology companies. Through an advanced curriculum
-                  and project-based structure, students learn today’s cutting
-                  edge development technologies. The JavaScript-driven
-                  curriculum provides immersion in the latest web technologies.
+                  top-tier technology companies.
+                </li>
+                <li>
+                  Through an advanced curriculum and project-based structure,
+                  students learn today’s cutting edge development technologies.
+                  The JavaScript-driven curriculum provides immersion in the
+                  latest web technologies.
                 </li>
                 <li>Front-End Skills: Javascript, React, Redux, HTML, CSS</li>
                 <li>
