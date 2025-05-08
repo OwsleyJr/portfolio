@@ -6,7 +6,7 @@ import Link from "next/link";
 const About: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto max-w-7xl">
-      <div className="z-0 flex-1 px-4 pt-10 md:px-6 md:py-20">
+      <div className="z-0 flex-1 px-4 pt-10 md:px-8 md:py-20">
         <div>
           <h1 className="mt-1 text-5xl font-black items-start flex text-white cursor-default sm:text-8xl sm:leading-11">
             Hi, I'm Brandon!
