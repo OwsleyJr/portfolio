@@ -43,7 +43,7 @@ const Resume: React.FC = () => {
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">New York Life</span>
-                <span className="cyan-badge">Software Engineer</span>
+                <span className="cyan-badge">Senior Software Engineer</span>
               </span>
             </div>
             <div className="ml-4 prose">
