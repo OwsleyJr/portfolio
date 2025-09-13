@@ -165,7 +165,9 @@ const Resume: React.FC = () => {
           </div>
         </div>
         <div className="mt-12">
-          <h2 className="text-3xl font-extrabold">Open-source Work</h2>
+          <h2 className="text-3xl font-extrabold">
+            Open-source/Non-Profit Work
+          </h2>
           <div className="mt-6 prose">
             <ul className="ml-4 text-gray-200">
               <li>
@@ -173,7 +175,7 @@ const Resume: React.FC = () => {
                   href="https://github.com/sct/overseerr"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-cyan-500"
+                  className="text-sky-500"
                 >
                   Overseerr
                 </a>{" "}
@@ -182,28 +184,28 @@ const Resume: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="https://sheepdogtheatre.com/en"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sky-500"
+                >
+                  Sheepdog Theatre
+                </a>{" "}
+                - Built a ticketing full-stack application from scratch to
+                streamline scanning, creation/ editing, and viewing of tickets.
+              </li>
+              <li>
+                <a
                   href="https://github.com/Charmander-Cluster/sweatdeck"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-cyan-500"
+                  className="text-sky-500"
                 >
                   Sweatdeck
                 </a>{" "}
                 - Sweatdeck is a full stack RESTful web application to log your
                 cardio and strength workouts along with one of your Spotify
                 playlists.
-              </li>
-              <li>
-                <a
-                  href="https://github.com/OwsleyJr/json-parser-app"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-cyan-500"
-                >
-                  JSON Parser
-                </a>{" "}
-                - A JSON Parsing app I built that provides you with beautiful
-                responsive cards and allows you to input custom JSON data.
               </li>
             </ul>
             <p className="text-gray-200">
@@ -212,7 +214,7 @@ const Resume: React.FC = () => {
                 href="https://github.com/OwsleyJr"
                 target="_blank"
                 rel="noreferrer"
-                className="text-cyan-500"
+                className="text-sky-500"
               >
                 GitHub profile
               </a>

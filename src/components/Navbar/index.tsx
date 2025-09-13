@@ -39,7 +39,7 @@ const Navbar = () => {
   const [show, setshow] = useState(false);
 
   return (
-    <div className="h-14 flex flex-col bg-[#11212c]">
+    <div className="h-14 flex flex-col bg-slate-950">
       <div className="flex flex-row justify-between pt-3">
         <div className="pl-5">
           <h1 className="text-2xl font-normal leading-6 bg-gradient-to-r from-cyan-500 to-blue-400 bg-clip-text text-transparent cursor-default">

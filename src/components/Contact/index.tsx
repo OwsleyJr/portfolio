@@ -31,13 +31,13 @@ const Contact: React.FC = () => {
               />
             </div>
             <a href="mailto:brandon@z3hn.dev" target="_blank" rel="noreferrer">
-              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl 2xl:text-5xl sm:leading-10">
+              <p className="ml-2 text-3xl font-black leading-7 text-center text-sky-500 sm:text-4xl 2xl:text-5xl sm:leading-10">
                 Email
               </p>
             </a>
           </div>
           <div className="flex items-center flex-row mt-3 ml-2 md:mt-4">
-            <div className="text-white relative">
+            <div className="text-white relative bg-white">
               <Image
                 src={githubImg}
                 alt="githubImage"
@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl 2xl:text-5xl sm:leading-10">
+              <p className="ml-2 text-3xl font-black leading-7 text-center text-sky-500 sm:text-4xl 2xl:text-5xl sm:leading-10">
                 Github
               </p>
             </a>
@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="ml-2 text-3xl font-black leading-7 text-center text-cyan-500 sm:text-4xl 2xl:text-5xl sm:leading-10">
+              <p className="ml-2 text-3xl font-black leading-7 text-center text-sky-500 sm:text-4xl 2xl:text-5xl sm:leading-10">
                 LinkedIn
               </p>
             </a>
