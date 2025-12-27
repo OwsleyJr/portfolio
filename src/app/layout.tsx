@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
 import { Metadata } from "next";
 import TransitionLayout from "../components/TransitionLayout";
+import SpeedInsightsComponent from "../components/SpeedInsights";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Navbar />
           <TransitionLayout>{children}</TransitionLayout>
         </div>
+        <SpeedInsightsComponent />
       </body>
     </html>
   );
